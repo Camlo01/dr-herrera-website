@@ -1,0 +1,110 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: var(--dark-blue);
+    font-family: 'Nunito';
+    font-weight: 800;
+}
+
+.navbar .container {
+    width: 100%;
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.icono-izquierdo .icono {
+    max-width: 135px;
+    content: url("/assets/icons/logo-cirugia-bariatrica.png");
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background: goldenrod;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(192, 192, 192)
+}
+
+.nav-links li:last-child a {
+    font-weight: bold;
+}
+
+.nav-links li:last-child a {
+    background-image: url("/assets/backgrounds/golden.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 33px;
+    border-radius: 50px;
+    color: black;
+}
+
+.nav-links li:last-child a:hover {
+    color: rgb(77, 77, 77);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0;
+        top: 80px;
+        flex-direction: column;
+        background-color: var(--dark-blue);
+        width: 100%;
+        height: calc(100vh - 60px);
+        transform: translateX(100%);
+        transition: transform 0.3s ease-out;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .nav-links.active {
+        transform: translateX(0%);
+    }
+
+
+    .icono-izquierdo .icono {
+        max-height: 40px;
+        content: url("/assets/icons/isotipo.png");
+    }
+
+
+}

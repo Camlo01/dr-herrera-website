@@ -1,0 +1,23 @@
+/* project font families */
+
+/* Nunito */
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito/Nunito-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito/Nunito-ExtraBold.ttf');
+    font-weight: 800;
+}
+
+/* Montserrat */
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
