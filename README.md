@@ -2,7 +2,7 @@
 
 - [GUÍA: Cómo correr el proyecto](#cómo_correr_el_proyecto)
 - [Requisitos](#requisitos)
-- [Website] (#website)
+- [Website](#website)
 
 
 Este es el proyecto del [sitio web](http://docherrerabariatrico.com/) del dr. Wilmar Herrera
