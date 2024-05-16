@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import '../NavegationBar/NavegationBar.css'
+import '../NavegationBar/navegationBar.css'
 
 function NavegationBar() {
 
