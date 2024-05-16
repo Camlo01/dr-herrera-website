@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 import './footer.css'
 
-import logo from '/assets/icons/logo-cirugia-bariatrica.png'
+import logo from '/assets/logos/logo-cirugia-bariatrica.png'
 
 function Footer() {
 

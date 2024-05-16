@@ -18,7 +18,7 @@
 
 .icono-izquierdo .icono {
     max-width: 135px;
-    content: url("/assets/icons/logo-cirugia-bariatrica.png");
+    content: url("/assets/logos/logo-cirugia-bariatrica.png");
 }
 
 .hamburger {
@@ -105,7 +105,7 @@
 
     .icono-izquierdo .icono {
         max-height: 40px;
-        content: url("/assets/icons/isotipo.png");
+        content: url("/assets/logos/isotipo.png");
     }
 
 
