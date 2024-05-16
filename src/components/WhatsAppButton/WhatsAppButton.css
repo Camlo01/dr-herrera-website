@@ -1,0 +1,20 @@
+.ws-btn {
+    width: 0;
+    height: 0;
+}
+
+.ws-btn img {
+    position: fixed;
+    background-color: transparent;
+    width: 95px;
+    left: 20px;
+    bottom: 20px;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.35));
+    transition: all 0.3s ease;
+}
+
+.ws-btn img:hover {
+    width: 120px;
+
+    filter: drop-shadow(0px 5px 13px rgba(0, 0, 0, 0.5));
+}
