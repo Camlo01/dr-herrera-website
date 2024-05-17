@@ -33,7 +33,7 @@ function CalculatorWidget() {
             <p>Determina con ayuda de nuestra calculadora si estás dentro de tu peso ideal (índice de masa corporal)</p>
             <h3 onClick={handleTakeTest}>
                 {/* href for set the id of the section with the imc calculator */}
-                <a href="">Realizar Test</a>
+                <a href="/#calculadora-imc">Realizar Test</a>
             </h3>
         </div>
 
