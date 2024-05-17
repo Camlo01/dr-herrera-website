@@ -66,6 +66,10 @@
     cursor: pointer;
 }
 
+.calculator-widget h3 a {
+    color: black;
+}
+
 .calculator-widget {
     transition: transform 0.3s ease-in-out;
 }
