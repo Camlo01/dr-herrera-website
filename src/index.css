@@ -1,10 +1,18 @@
 :root {
   /* Add Colors */
   --dark-blue: #042047;
+  --blue-king-lighter: #26599A;
+  --france-blue: #3173C7;
+  --france-blue-lighter: #3E88F3;
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Scroll settings */
+  scroll-padding-top: 50px;
+  scroll-behavior: smooth;
+
 
   /* Configure dark theme */
   /* color-scheme: light dark; */
