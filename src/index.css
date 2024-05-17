@@ -10,9 +10,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Scroll settings */
-  scroll-padding-top: 50px;
+  scroll-padding-top: 100px;
   scroll-behavior: smooth;
-
 
   /* Configure dark theme */
   /* color-scheme: light dark; */
