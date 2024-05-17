@@ -1,0 +1,135 @@
+.imc-calculator {
+    background-color: var(--france-blue);
+    border: 15px var(--blue-king-lighter) solid;
+    border-radius: 15px 0 15px 0;
+    width: 356px;
+    height: 485px;
+}
+
+.imc-calculator h2 {
+    padding-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* Buttons */
+
+.imc-calculator .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 15px 0 40px;
+}
+
+.imc-calculator .buttons button {
+    width: 150px;
+    padding: 5px 0;
+    font-family: 'Open Sans';
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #f7f7f7;
+    background-color: var(--france-blue-lighter);
+    border: none;
+    transition: background-color 0.2s ease, color 0.4s ease;
+    box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.imc-calculator .buttons button:hover {
+    background-color: #4c90ef;
+    color: #d9d9d9;
+    box-shadow: 2px 9px 18px 3px rgba(0, 0, 0, 0.1);
+}
+
+.imc-calculator .buttons button:disabled {
+    width: 150px;
+    font-family: 'Open Sans';
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #999999;
+    background-color: #245499;
+    border: none;
+    box-shadow: 0px 5px 3px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Inputs */
+
+.imc-calculator .inputs {
+    margin-bottom: 30px;
+}
+
+.imc-calculator .inputs div {
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.imc-calculator .inputs div:first-child {
+    margin-bottom: 30px;
+}
+
+.imc-calculator .inputs div .person {
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.imc-calculator .inputs div .weight-machine {
+    height: 66px;
+}
+
+.imc-calculator .inputs div input {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    text-align: center;
+    /* color: #B1AFAF; */
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+
+    height: 55px;
+    width: 137px;
+    font-size: 3rem;
+}
+
+.imc-calculator .inputs div .has-text {
+    color: black;
+}
+
+.imc-calculator .inputs div label {
+    width: 45px;
+    font-family: 'Open Sans';
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+/* Calcular Button */
+
+.imc-calculator .calcular {
+    font-family: 'Open Sans';
+    font-size: 2.2rem;
+    font-weight: 800;
+    width: 278px;
+    height: 58px;
+    border: none;
+    color: white;
+    background-color: var(--france-blue-lighter);
+    margin-left: 24px;
+    transition: background-color 0.2s ease, color 0.4s ease;
+    box-shadow: 0px 6px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+.imc-calculator .calcular:hover {
+    color: #d9d9d9;
+    background-color: #4c90ef;
+    box-shadow: 2px 9px 18px 3px rgba(0, 0, 0, 0.1);
+}
