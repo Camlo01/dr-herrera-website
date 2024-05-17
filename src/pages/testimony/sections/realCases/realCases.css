@@ -1,0 +1,106 @@
+.blue-container {
+    height: 970px;
+    background-color: var(--france-blue-lighter);
+}
+
+.blue-container h2 {
+    font-family: 'Nunito';
+    font-style: italic;
+    font-size: 2.8rem;
+    width: 320px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.blue-container .carrousel-container {
+    width: 330px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.testimony-cases .histories h2 {
+    font-family: 'Nunito';
+    font-size: 2.4rem;
+    width: 320px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+.testimony-cases .histories .body {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-align: justify;
+    width: 320px;
+    margin: 0 auto 30px;
+}
+
+.testimony-cases .histories .body p {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 744px) {
+
+    .blue-container h2 {
+        font-size: 3.4rem;
+    }
+
+    .blue-container .carrousel-container {
+        width: fit-content;
+    }
+
+
+    .testimony-cases .histories h2 {
+        font-size: 3.4rem;
+        width: 375px;
+    }
+
+    .testimony-cases .histories .body {
+        font-size: 2.2rem;
+        width: 575px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .testimony-cases {
+        display: flex;
+        /* max-width: 1280px; */
+        background-color: var(--france-blue-lighter);
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+
+    .testimony-cases>div {
+        padding: 0 40px;
+    }
+
+    .testimony-cases .blue-container {
+        padding-top: 140px;
+    }
+
+    .testimony-cases .blue-container h2 {
+        position: absolute;
+        margin-top: -140px;
+        margin-left: 389px;
+        font-size: 4.2rem;
+    }
+
+    .testimony-cases .histories {
+        padding-top: 120px;
+        padding-left: 120px;
+    }
+
+    .testimony-cases .histories .body {
+        width: 485px;
+    }
+
+
+
+}
