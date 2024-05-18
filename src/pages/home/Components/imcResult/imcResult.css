@@ -1,0 +1,65 @@
+.imc-result {
+    background-color: rgb(239, 238, 238);
+    width: 356px;
+    height: 470px;
+    border-radius: 6px;
+    padding: 0cqi 10px;
+    margin-top: 50px;
+}
+
+.imc-result h3 {
+    font-family: 'Nunito';
+    font-size: 2.8rem;
+    width: fit-content;
+    margin-left: 35px;
+    margin-top: 5px;
+    position: absolute;
+    z-index: 1;
+}
+
+.measure-container {
+    position: absolute;
+    width: fit-content;
+    margin-left: 15px;
+    margin-top: -30px;
+    background-color: white;
+    box-shadow: 0px 4px 8px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding-bottom: 80px;
+}
+
+.imc-result h4 {
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 3rem;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 196px;
+}
+
+.imc-result .result p {
+    font-family: 'Nunito';
+    font-weight: 900;
+    padding: 10px 30px;
+    background-color: rgb(236, 236, 236);
+    color: rgb(34, 34, 34);
+    font-size: 3rem;
+    position: absolute;
+    margin-left: 54px;
+    margin-top: 245px;
+
+    border-radius: 18px;
+    box-shadow: inset 0px 0px 19px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imc-result .diagnostic {
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-align: start;
+    font-size: 2.1rem;
+    position: inherit;
+    padding: 350px 10px 20px;
+    color: black;
+
+}
