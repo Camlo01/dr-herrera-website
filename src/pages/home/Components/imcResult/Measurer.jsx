@@ -4,26 +4,26 @@ import { PieChart, Pie, Cell } from 'recharts';
 
 const RADIAN = Math.PI / 180;
 const data = [
-    { name: 'bajo', value: 30, color: '#21A6F3' },
-    { name: 'normal', value: 32, color: '#40BC64' },
-    { name: 'sobrepeso', value: 18, color: '#FC5448' },
-    { name: 'obesidad1', value: 10, color: '#D4453B' },
-    { name: 'obesidad2', value: 8, color: '#A5332B' },
-    { name: 'obesidad3', value: 8, color: '#84261F' },
+    { name: 'bajo', value: 48.33, color: '#21A6F3' },
+    { name: 'normal', value: 32.55, color: '#40BC64' },
+    { name: 'sobrepeso', value: 24.17, color: '#FC5448' },
+    { name: 'obesidad1', value: 25.15, color: '#D4453B' },
+    { name: 'obesidad2', value: 24.16, color: '#A5332B' },
+    { name: 'obesidad3', value: 25.64, color: '#84261F' },
 ];
+
 const cx = 150;
 const cy = 195;
 const iR = 50;
 const oR = 100;
-const value = 50;
 
-const needle = (value, data, cx, cy, iR, oR, color) => {
+const needle = (calculatedAngle = 180, data, cx, cy, iR, oR, color) => {
     let total = 0;
     data.forEach((v) => {
         total += v.value;
     });
 
-    const ang = 90.0; // Where should be the value
+    const ang = calculatedAngle;
     const length = (iR + 2 * oR) / 3;
     const sin = Math.sin(-RADIAN * ang);
     const cos = Math.cos(-RADIAN * ang);
@@ -44,7 +44,7 @@ const needle = (value, data, cx, cy, iR, oR, color) => {
 };
 
 
-function Measurer() {
+function Measurer({ imc }) {
     {
         return (
             <PieChart width={310} height={280}>
@@ -68,9 +68,29 @@ function Measurer() {
                         <Cell key={`cell-${index}`} fill={entry.color} />
                     ))}
                 </Pie>
-                {needle(value, data, cx, cy, iR, oR, '#3F3E3F')}
+                {needle(calculateAngle(imc), data, cx, cy, iR, oR, '#3F3E3F')}
             </PieChart>
         );
     }
 }
 export default Measurer;
+
+function calculateAngle(imc) {
+    const max = 45
+    const min = 15
+
+    // Default values
+    if (imc < min) {
+        return 180;
+    } else if (imc > max) {
+        return 0;
+    }
+
+    const difference = max - imc;
+
+    const percentage = (difference * 100) / 36.5
+
+    const angle = (percentage * 180) / 100
+
+    return angle
+}

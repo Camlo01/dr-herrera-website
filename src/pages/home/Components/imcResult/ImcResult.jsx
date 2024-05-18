@@ -2,22 +2,21 @@ import Measurer from "./Measurer";
 
 import './imcResult.css'
 
-function ImcResult() {
-
-    const imcResult = `24.2`
+function ImcResult({ imcResult }) {
 
     return (
-        <div className="imc-result" id="#id-result">
+        <div className="imc-result" id="imc-result">
             <h3>Tu resultado de IMC</h3>
             <div className="measure-container">
-                <Measurer />
+                <Measurer imc={imcResult} />
             </div>
             <h4>IMC: {imcResult}</h4>
             <div className="result">
                 <p>{diagnostic(imcResult)}</p>
             </div>
             <div className="diagnostic">
-                <p>{comentary(imcResult)}</p>
+                <hr />
+                <p> {comentary(imcResult)}</p>
             </div>
         </div>
     );
@@ -26,6 +25,10 @@ function ImcResult() {
 export default ImcResult;
 
 function diagnostic(imc) {
+
+    if (imc == 0) {
+        return `_`
+    }
 
     if (imc < 18.5) {
         return `Peso Bajo`
@@ -55,6 +58,10 @@ function diagnostic(imc) {
 
 function comentary(imc) {
 
+    if (imc == 0) {
+        return `- Aquí aparecerá el resultado de tu nivel de índice de masa corporal... `
+    }
+
     if (imc < 18.5) {
         return `Tu IMC es bajo. Considera consultar a un profesional de la salud para asesoramiento sobre nutrición y bienestar.`
     }
@@ -80,3 +87,4 @@ function comentary(imc) {
     }
 
 }
+
