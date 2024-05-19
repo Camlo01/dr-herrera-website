@@ -1,0 +1,12 @@
+# This .htaccess file redirects all requests to index.html in a React Single Page Application (SPA).
+# In an SPA, client-side routing handles navigation. Direct URL access or page refreshes may cause 404 errors
+# because the server looks for files that don't exist. This file ensures React Router Dom handles all routing.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule . /index.html [L]
+</IfModule>
