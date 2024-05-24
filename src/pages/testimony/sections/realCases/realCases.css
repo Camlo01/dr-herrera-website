@@ -1,6 +1,5 @@
 .blue-container {
     height: 970px;
-    background-color: var(--france-blue-lighter);
 }
 
 .blue-container h2 {
@@ -69,8 +68,7 @@
 
     .testimony-cases {
         display: flex;
-        /* max-width: 1280px; */
-        background-color: var(--france-blue-lighter);
+        background-color: #2A67BC; 
         margin: 0 auto;
         display: flex;
         justify-content: center;
