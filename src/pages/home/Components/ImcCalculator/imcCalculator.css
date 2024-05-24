@@ -4,6 +4,13 @@
     border-radius: 15px 0 15px 0;
     width: 356px;
     height: 485px;
+    margin-bottom: 50px;
+}
+
+@media (min-width: 720px) {
+    .imc-calculator {
+        margin-bottom: 0px;
+    }
 }
 
 .imc-calculator h2 {
