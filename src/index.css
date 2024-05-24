@@ -1,6 +1,7 @@
 :root {
   /* Add Colors */
   --dark-blue: #042047;
+  --blue-king-darkness: #193962;
   --blue-king-lighter: #26599A;
   --france-blue: #3173C7;
   --france-blue-lighter: #3E88F3;
@@ -10,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Scroll settings */
-  scroll-padding-top: 100px;
+  scroll-padding-top: 130px;
   scroll-behavior: smooth;
 
   /* Configure dark theme */
@@ -26,4 +27,10 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+}
+
+@media (min-width: 744px) {
+  :root {
+    scroll-padding-top: 250px;
+  }
 }
