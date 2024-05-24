@@ -53,22 +53,23 @@ function setDocumentTitle(location) {
     const restOfTitle = " | Dr. Wilmar Herrera"
 
     if (location.pathname === '/') {
-        document.title = 'Inicio' + restOfTitle
+        return document.title = 'Inicio' + restOfTitle
     }
     if (location.pathname === '/Quien-Soy') {
-        document.title = 'Quién Soy' + restOfTitle
+        return document.title = 'Quién Soy' + restOfTitle
     }
 
     if (location.pathname === '/Cirugias') {
-        document.title = 'Cirugías' + restOfTitle
+        return document.title = 'Cirugías' + restOfTitle
     }
 
-    if (location.pathname === '/Testimonios') (
-        document.title = 'Testimonios' + restOfTitle
-    )
+    if (location.pathname === '/Testimonios') {
+        return document.title = 'Testimonios' + restOfTitle
+    }
 
     if (location.pathname === '/Contacto') {
-        document.title = 'Contacto' + restOfTitle
+        return document.title = 'Contacto' + restOfTitle
     }
 
+    document.title = 'No encontrado' + restOfTitle
 }
