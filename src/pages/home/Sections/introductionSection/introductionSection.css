@@ -1,0 +1,174 @@
+.introductionHome-section {
+    height: 520px;
+    background-image:
+        linear-gradient(rgba(49, 115, 199, .5),
+            rgba(38, 89, 154, .5),
+            rgba(30, 70, 121, 0.65),
+            rgba(26, 60, 103, 0.85),
+            rgba(24, 57, 99, 1),
+            rgba(24, 56, 97, 1)),
+        url('/assets/images/home/consultorio-medico.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.introductionHome-section h2 {
+    font-size: 3.4rem;
+    color: white;
+    letter-spacing: -1px;
+    font-family: 'Nunito';
+
+    position: absolute;
+    width: fit-content;
+    margin-left: calc(9vw + 20px);
+    margin-top: 40px;
+}
+
+.introductionHome-section img {
+    position: absolute;
+    width: 290px;
+    top: 212px;
+    left: 0;
+    right: 15px;
+    margin-left: auto;
+}
+
+.introductionHome-section .name-card {
+    position: absolute;
+    background-color: var(--dark-blue);
+    top: 430px;
+    width: 80vw;
+    display: flex;
+    padding: 20px 10px 40px 0;
+    flex-direction: column;
+    align-items: end;
+}
+
+.introductionHome-section .name-card h1 {
+    font-size: 3.1rem;
+    color: white;
+    font-family: 'Nunito';
+    font-weight: 800;
+    width: 280px;
+}
+
+.introductionHome-section .name-card h3 {
+    font-size: 1.8rem;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: var(--orange);
+    width: 280px;
+}
+
+.name-card a {
+    position: absolute;
+}
+
+.name-card button {
+    font-family: 'Nunito';
+    font-size: 2.2em;
+    font-weight: 900;
+    padding: 10px 24px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 84px;
+    margin-right: 65px;
+    box-shadow: 0px 13px 10px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    background-image:
+        url('/assets/backgrounds/golden.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (min-width: 520px) {
+
+    .introductionHome-section h2 {
+        margin-left: calc(20vw);
+        font-size: 3.8rem;
+    }
+
+    .introductionHome-section img {
+        margin-right: calc(10vw + 15px);
+    }
+
+    .introductionHome-section .name-card {
+        width: 70vw;
+    }
+
+    .introductionHome-section .name-card h1 {
+        width: 320px;
+    }
+
+    .introductionHome-section .name-card h3 {
+        font-size: 1.8rem;
+        width: 320px;
+    }
+}
+
+@media (min-width: 744px) {
+    .introductionHome-section h2 {
+        font-size: 4rem;
+    }
+
+    .introductionHome-section .name-card h1 {
+        font-size: 3.5rem;
+    }
+
+    .introductionHome-section .name-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .introductionHome-section img {
+        width: 320px;
+        top: 173px;
+    }
+
+    .introductionHome-section .name-card {
+        width: 60vw;
+        top: 420px;
+    }
+}
+
+@media (min-width: 769px) {
+    .introductionHome-section h2 {
+        font-size: 4.2rem;
+        margin-left: calc(24vw - 15px);
+    }
+
+    .introductionHome-section img {
+        width: 320px;
+        top: 185px;
+    }
+}
+
+
+@media (min-width: 966px) {
+    .introductionHome-section h2 {
+        font-size: 4.4rem;
+        top: 130px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding-right: 260px;
+    }
+
+    .introductionHome-section img {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: auto;
+        height: 472.5px;
+        padding-left: 300px;
+        top: 144px;
+    }
+
+    .introductionHome-section .name-card {
+        width: 50vw;
+        text-align: center;
+    }
+}
