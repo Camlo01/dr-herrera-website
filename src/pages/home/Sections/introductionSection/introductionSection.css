@@ -172,3 +172,121 @@
         text-align: center;
     }
 }
+
+.who-i-am-section {
+    background-color: #F1F1F1;
+    padding-bottom: 100px;
+}
+
+.who-i-am-section>img {
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.who-i-am-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.who-i-am-container .photo {
+    width: 280px;
+    margin: 0 auto 30px;
+}
+
+.who-i-am-container .photo>img {
+    position: absolute;
+}
+
+.who-i-am-container .photo img:nth-child(2) {
+    padding-left: 6px;
+}
+
+.who-i-am-container .photo h2 {
+    color: black;
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 255px;
+    font-size: 2.2rem;
+}
+
+.who-i-am-container .body {
+    padding: 0 35px;
+}
+
+.who-i-am-container .body h2 {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 18px;
+    line-height: 35px;
+}
+
+.who-i-am-container .body p {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    text-align: justify;
+    padding-bottom: 18px;
+}
+
+@media (min-width: 744px) {
+    .who-i-am-container {
+        flex-direction: row-reverse;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+
+    .who-i-am-container>div {
+        width: 50%;
+        /* max-width: 490px; */
+        height: fit-content;
+    }
+
+    .who-i-am-container>div:nth-child(1) {
+        max-width: 360px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 956px) {
+
+    .who-i-am-container .photo {
+        width: 320px;
+        height: 320px;
+    }
+
+    .who-i-am-container .photo>img {
+        width: 320px;
+        margin: 0 auto 30px;
+    }
+
+    .who-i-am-container .photo h2 {
+        padding-top: 285px;
+        font-size: 2.2rem;
+    }
+
+    .who-i-am-container .photo img:nth-child(2) {
+        height: 280px;
+        width: 312px;
+        padding-bottom: 8px;
+        padding-left: 7px;
+    }
+
+    .who-i-am-container .body {
+        width: 520px;
+    }
+
+    .who-i-am-container .body h2 {
+        font-size: 3.8rem;
+        width: max-content;
+        margin: 0 auto;
+    }
+
+    .who-i-am-container .body p {
+        font-size: 2rem;
+    }
+
+}
