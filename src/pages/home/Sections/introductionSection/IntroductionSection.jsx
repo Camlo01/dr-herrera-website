@@ -11,7 +11,7 @@ import './introductionSection.css'
 function IntroductionSection() {
     return (
         <>
-            <section className='introductionHome-section'>
+            <section className='introductionHome-section' id='inicio'>
                 <h2>Tienes una vida, <br />¡Ahora juntos la <br />haremos <br />mejor!</h2>
                 <img src={DrWilmar} alt="Doctor Wilmar Herrera Bariátrico" />
                 <div className='name-card'>
@@ -22,7 +22,7 @@ function IntroductionSection() {
                     </a>
                 </div>
             </section>
-            <section className='who-i-am-section'>
+            <section className='who-i-am-section' id='introduccion'>
                 <img src={logoDrHerrera} alt="Logo Dr, Herrera Cirujano Bariátrico by Mavri" />
                 <div className='who-i-am-container'>
                     <div className='photo'>
