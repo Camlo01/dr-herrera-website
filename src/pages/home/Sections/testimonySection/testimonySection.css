@@ -63,6 +63,7 @@
 .testimony-section .container .card>div img {
     width: 100%;
     height: 220px;
+    object-fit: cover;
 }
 
 .testimony-section .container .card>div .text {
