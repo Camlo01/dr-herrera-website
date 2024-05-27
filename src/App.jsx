@@ -12,6 +12,7 @@ const About = lazy(() => import('./pages/about/About'))
 const Surgeries = lazy(() => import('./pages/surgeries/Surgeries'))
 const Testimony = lazy(() => import('./pages/testimony/Testimony'))
 const Conatct = lazy(() => import('./pages/contact/Contact'))
+const NotFonud = lazy(() => import('./components/NotFound/NotFound'))
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
                         <Route path='/Cirugias' element={<Surgeries />} />
                         <Route path='/Testimonios' element={<Testimony />} />
                         <Route path='/Contacto' element={<Conatct />} />
+                        <Route path='*' element={<NotFonud />}></Route>
                     </Route>
                 </Routes>
             </Router>
