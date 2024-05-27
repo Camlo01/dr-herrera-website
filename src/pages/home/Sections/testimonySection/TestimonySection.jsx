@@ -2,6 +2,17 @@ import { Link } from 'react-router-dom';
 
 import './testimonySection.css'
 
+// testimony images
+
+import testimonyImage11 from '/assets/images/testimony/testimonio-1-1.jpeg'
+import testimonyImage12 from '/assets/images/testimony/testimonio-1-2.jpeg'
+import testimonyImage21 from '/assets/images/testimony/testimonio-2-1.jpeg'
+import testimonyImage22 from '/assets/images/testimony/testimonio-2-2.jpeg'
+import testimonyImage31 from '/assets/images/testimony/testimonio-3-1.jpeg'
+import testimonyImage32 from '/assets/images/testimony/testimonio-3-2.jpeg'
+
+
+
 function TestimonySection() {
     return (
         <section className="testimony-section" id='testimonios'>
@@ -15,13 +26,13 @@ function TestimonySection() {
 
                         <div className='card'>
                             <div className='before'>
-                                <img src="" alt="" />
+                                <img src={testimonyImage11} alt="" />
                                 <div className='text'>
                                     <p>Antes</p>
                                 </div>
                             </div>
                             <div className='after'>
-                                <img src="" alt="" />
+                                <img src={testimonyImage12} alt="" />
                                 <div className='text'>
                                     <p>Después</p>
                                 </div>
@@ -33,13 +44,13 @@ function TestimonySection() {
 
                         <div className='card' id='second-card' >
                             <div className='before'>
-                                <img src="" alt="" />
+                                <img src={testimonyImage21} alt="" />
                                 <div className='text'>
                                     <p>Antes</p>
                                 </div>
                             </div>
                             <div className='after'>
-                                <img src="" alt="" />
+                                <img src={testimonyImage22} alt="" />
                                 <div className='text'>
                                     <p>Después</p>
                                 </div>
@@ -51,13 +62,13 @@ function TestimonySection() {
 
                         <div className='card' id='third-card'>
                             <div className='before'>
-                                <img src="" alt="" />
+                                <img src={testimonyImage31} alt="" />
                                 <div className='text'>
                                     <p>Antes</p>
                                 </div>
                             </div>
                             <div className='after'>
-                                <img src="" alt="" />
+                                <img src={testimonyImage32} alt="" />
                                 <div className='text'>
                                     <p>Después</p>
                                 </div>
