@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../ImcCalculator/imcCalculator.css'
+import './imcCalculator.css'
 
 // Icons
 import personIcon from '/assets/icons/imc-calculator/person.svg'
