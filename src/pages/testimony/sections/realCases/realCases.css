@@ -1,6 +1,7 @@
 .blue-container {
-    height: 970px;
+    height: fit-content;
     background-color: #2A67BC;
+    padding-bottom: 10px;
 }
 
 .blue-container h2 {
@@ -69,7 +70,7 @@
 
     .testimony-cases {
         display: flex;
-        background-color: #2A67BC; 
+        background-color: #2A67BC;
         margin: 0 auto;
         display: flex;
         justify-content: center;
