@@ -91,4 +91,9 @@
     font-size: 1.8rem;
     text-decoration: none;
     color: white;
+    transition: color .1s ease;
+}
+
+.footer .links ul li a:hover {
+    color: rgb(134, 134, 134);
 }
