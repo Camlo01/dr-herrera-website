@@ -33,7 +33,7 @@ function ImcCalculator({ setImcResult }) {
     }
 
     return (
-        <div className="imc-calculator" id="calculadora-imc">
+        <div className="imc-calculator" id="calculadora">
             <h2>Calculadora IMC</h2>
             <div className='buttons'>
                 <button onClick={handleSwitch} disabled={isMetricSystem ? true : false}>Sistema Métrico</button>
