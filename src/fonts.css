@@ -18,8 +18,23 @@
 
 @font-face {
     font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito/Nunito-Bold.ttf');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
     src: url('/assets/fonts/Nunito/Nunito-SemiBoldItalic.ttf');
     font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/assets/fonts/Nunito/Nunito-BoldItalic.ttf');
+    font-weight: 700;
     font-style: italic;
     font-display: swap;
 }
@@ -83,5 +98,13 @@
     font-family: 'Open Sans';
     src: url('/assets/fonts/Open_Sans/OpenSans-ExtraBold.ttf');
     font-weight: 800;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/assets/fonts/Open_Sans/OpenSans-Italic.ttf');
+    font-weight: 500;
+    font-style: italic;
     font-display: swap;
 }
