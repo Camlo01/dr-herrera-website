@@ -1,0 +1,169 @@
+.logo-contianer {
+    width: 240px;
+    margin: 50px auto;
+}
+
+@media (min-width: 1280px) {
+    .logo-contianer {
+        width: 300px;
+    }
+
+}
+
+.about-doctor-section {
+    background-color: #DCDCDC;
+    padding: 40px 0 30px;
+}
+
+.about-doctor-section .title {
+    margin-bottom: 30px;
+}
+
+.about-doctor-section .title h2,
+.title h3 {
+    font-size: 3rem;
+    font-family: 'Nunito';
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.about-doctor-section .title h3 {
+    color: var(--orange);
+}
+
+.about-doctor-section .container-body {
+    background-color: #083676;
+    color: white;
+    width: 95vw;
+    padding: 30px 20px 30px;
+    border-radius: 0 10px 10px 0px;
+}
+
+.about-doctor-section .container-body h3 {
+    font-size: 2.8rem;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.about-doctor-section .container-body p {
+    font-size: 1.8rem;
+    text-align: justify;
+    font-family: 'Montserrat';
+    margin-bottom: 30px;
+}
+
+.about-doctor-section .container-body .image {
+    width: 80%;
+    display: block;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 744px) {
+
+    .about-doctor-section .title h2,
+    .title h3 {
+        font-size: 3.6rem;
+    }
+
+    .about-doctor-section .container-body {
+        width: 80vw;
+        padding-left: 50px;
+    }
+
+    .about-doctor-section .container-body h3 {
+        max-width: 350px;
+        margin: 0 30% 10px auto;
+        font-size: 3.4rem;
+    }
+
+
+    .about-doctor-section .container-body p {
+        max-width: 350px;
+        margin: 0 30% 10px auto;
+    }
+
+    .about-doctor-section .container-body .image {
+        position: absolute;
+        right: 0;
+        margin-top: -350px;
+        width: fit-content;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .about-doctor-section .container-body .image {
+        position: absolute;
+        right: 5vw;
+        margin-top: -350px;
+        width: fit-content;
+    }
+}
+
+@media (min-width: 985px) {
+
+    .about-doctor-section .container-body {
+        padding: 40px 0 60px;
+    }
+
+    .about-doctor-section .container-body h3 {
+        max-width: 430px;
+    }
+
+    .about-doctor-section .container-body p {
+        max-width: 430px;
+    }
+
+    .about-doctor-section .container-body .image {
+        right: 8vw;
+    }
+}
+
+
+@media (min-width: 1280px) {
+
+    .about-doctor-section .title h2,
+    .title h3 {
+        font-size: 4.4rem;
+    }
+
+    .about-doctor-section .container-body {
+        width: 70vw;
+        padding: 40px 0 60px;
+    }
+
+    .about-doctor-section .container-body h3 {
+        max-width: 540px;
+        padding-left: 30px;
+        font-size: 4rem;
+    }
+
+    .about-doctor-section .container-body p {
+        max-width: 540px;
+        font-size: 2.2rem;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+
+    .about-doctor-section .container-body .image img {
+        height: 100%;
+        display: block;
+    }
+
+    .about-doctor-section .container-body .image {
+        left: auto;
+        right: 0;
+        width: 45vw;
+        display: flex;
+        justify-content: start;
+        background-color: #2A67BC;
+        border-radius: 55px 0 0 55px;
+    }
+}
