@@ -1,9 +1,7 @@
 .imcCalculator-section {
-    /* margin: 120px 0; */
     width: 100%;
     background-color: var(--blue-king-darkness);
     padding: 60px 0;
-    margin: 240px 0 60px;
 }
 
 .imcCalculator-section .body {
