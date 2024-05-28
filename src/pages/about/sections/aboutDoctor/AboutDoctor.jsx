@@ -29,7 +29,7 @@ function AboutDoctorSection() {
                             <source srcSet={imageDoc3} media="(min-width: 1281px)" />
                             <source srcSet={imageDoc2} media="(min-width: 745px) and (max-width: 1280px)" />
                             <source srcSet={imageDoc1} media="(max-width: 744px)" />
-                            <img src={imageDoc1} alt="Doctor" />
+                            <img src={imageDoc1} alt="Dr. Wilmar Herrera" />
                         </picture>
                     </div>
 
@@ -37,8 +37,6 @@ function AboutDoctorSection() {
                 </div>
 
             </section>
-
-
 
         </div>
     );
