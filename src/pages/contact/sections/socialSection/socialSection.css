@@ -1,0 +1,253 @@
+.social-section .social {
+    background-color: #295DA6;
+    color: white;
+    padding: 40px 30px 60px;
+}
+
+.social-section .social h2 {
+    font-family: 'Nunito';
+    font-size: 2.4rem;
+    font-weight: 700;
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.social-section .social p {
+    font-family: 'Montserrat';
+    font-size: 2rem;
+    text-align: justify;
+    max-width: 320px;
+    margin: 0 auto 40px;
+}
+
+.social-section .social .networks {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.social-section .social .networks h3 {
+    font-family: 'Nunito';
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+.social-section .social .networks ul {
+    padding-left: 20px;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.social-section .social .networks ul li {
+    margin-bottom: 10px;
+}
+
+.social-section .social .networks ul li a {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.social-section .social .networks .items {
+    max-width: 182px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-section .social .networks .items img {
+    width: 50px;
+    height: 50px;
+}
+
+.social-section .info {
+    padding: 40px 30px 60px;
+}
+
+.social-section .info h2 {
+    font-family: 'Nunito';
+    max-width: 190px;
+    font-size: 2.4rem;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+
+.social-section .info p {
+    font-family: 'Montserrat';
+    text-align: justify;
+    font-size: 2rem;
+    max-width: 320px;
+    margin: 0 auto 40px;
+}
+
+.social-section .info ul {
+    max-width: 375px;
+    margin: 0 auto 40px;
+}
+
+.social-section .info ul li {
+    list-style: none;
+    display: flex;
+}
+
+.social-section .info ul li img {
+    display: block;
+    height: 35px;
+    width: 35px;
+}
+
+.social-section .info ul li:nth-last-child(3) img {
+    margin-top: 4px;
+}
+
+.social-section .info ul li:nth-last-child(2) img {
+    margin-top: 10px;
+}
+
+.social-section .info ul li:nth-last-child(1) img {
+    margin-top: 4px;
+}
+
+.social-section .info ul li a {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 10px 0 10px 5px;
+
+    color: black;
+    text-decoration: none;
+    transition: color .2s ease
+}
+
+.social-section .info ul li a:hover {
+    color: #0089ED;
+}
+
+.social-section .info .ws {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.social-section .info .ws img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (min-width: 744px) {
+
+    .social-section .social {
+        padding: 50px 40px 80px;
+    }
+
+    .social-section .social h2 {
+        font-size: 3.4rem;
+        max-width: 345px;
+        margin-bottom: 50px;
+    }
+
+    .social-section .social p {
+        font-size: 2rem;
+        max-width: 490px;
+        margin-bottom: 50px;
+    }
+
+    .social-section .social .networks h3 {
+        font-size: 2.8rem;
+    }
+
+    .social-section .social .networks ul {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .social-section .info h2 {
+        font-size: 3.4rem;
+        max-width: 305px;
+    }
+
+    .social-section .info .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .social-section .info .container>div {
+        margin: 0 auto;
+    }
+
+    .social-section .info .ws a {
+        display: block;
+        margin-top: 100px;
+    }
+}
+
+@media(min-width: 1280px) {
+
+    .social-section {
+        display: flex;
+        -webkit-box-shadow: 3px 0px 14px -1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 0px 14px -1px rgba(0, 0, 0, 0.75);
+        box-shadow: 3px 0px 14px -1px rgba(0, 0, 0, 0.75);
+        margin-bottom: 80px;
+
+    }
+
+    .social-section>section {
+        flex: 1;
+        width: 50%;
+    }
+
+    .social-section .social p {
+        margin-bottom: 70px;
+
+    }
+
+
+    .social-section .info {
+        padding-top: 50px;
+    }
+
+    .social-section .info .container {
+        display: block;
+    }
+
+    .social-section .info h2 {
+        margin-bottom: 50px;
+    }
+
+    .social-section .info .container p {
+        max-width: 420px;
+    }
+
+    .social-section .social .networks ul {
+        margin-bottom: 50px;
+    }
+
+    .social-section .social .networks h3 {
+        font-size: 3rem;
+    }
+
+    .social-section .social p {
+        margin-bottom: 80px;
+    }
+
+    .social-section .info p {
+        margin-bottom: 50px;
+    }
+
+    .social-section .info .ws {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .social-section .info .ws p {
+        margin-bottom: 0;
+    }
+
+    .social-section .info .ws a {
+        margin-top: 30px;
+    }
+
+
+}
