@@ -1,0 +1,71 @@
+.years-experience-section {
+    padding: 30px 0;
+}
+
+.years-experience-section h2 {
+    font-family: 'Nunito';
+    font-size: 2.8rem;
+    width: fit-content;
+    margin: 0 auto;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.years-experience-section picture img {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto 40px;
+}
+
+.years-experience-section p {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+.years-experience-section hr {
+    width: 60vw;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+@media (min-width: 744px) {
+
+    .years-experience-section h2 {
+        font-size: 3.4rem;
+    }
+
+    .years-experience-section .container {
+        max-width: 780px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .years-experience-section .container>* {
+        flex: 1;
+        width: 50%;
+        padding: 0 20px;
+    }
+
+    .years-experience-section hr {
+        width: 45vw;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    .years-experience-section h2 {
+        font-size: 4rem;
+    }
+
+    .years-experience-section .container {
+        max-width: 1000px;
+    }
+
+    .years-experience-section hr {
+        width: 25vw;
+    }
+}
