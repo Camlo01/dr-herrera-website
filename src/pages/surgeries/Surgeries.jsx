@@ -1,6 +1,16 @@
+
+// Sections
+import IntroductionSection from './sections/introduction/Introduction.jsx'
+import OurSurgeries from './sections/ourSurgeries/OurSurgeries.jsx';
+import SurgeriesSection from './sections/surgeries/SurgeriesSection.jsx';
+
 function Surgeries() {
     return (
-        <h1>Cirugías</h1>
+        <>
+            <IntroductionSection />
+            <OurSurgeries />
+            <SurgeriesSection />
+        </>
     );
 }
 
