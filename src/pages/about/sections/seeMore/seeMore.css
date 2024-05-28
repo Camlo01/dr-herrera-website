@@ -1,0 +1,104 @@
+.see-more-section {
+    background-image: linear-gradient(0deg, rgba(4, 32, 71, 1) 3%, rgba(52, 74, 104, 0.8211659663865546) 27%, rgba(183, 188, 194, 0.3309698879551821) 59%, rgba(217, 217, 217, 0.20211834733893552) 81%),
+        url("/assets/images/about/dr-wilmar-background-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+@media (min-width: 744px) {
+    .see-more-section {
+        background-image: linear-gradient(0deg, rgba(4, 32, 71, 1) 3%, rgba(52, 74, 104, 0.8211659663865546) 27%, rgba(183, 188, 194, 0.3309698879551821) 59%, rgba(217, 217, 217, 0.20211834733893552) 81%),
+            url("/assets/images/about/dr-wilmar-background-2.png");
+    }
+}
+
+@media (min-width: 1280px) {
+    .see-more-section {
+        background-image: linear-gradient(0deg, rgba(4, 32, 71, 1) 3%, rgba(52, 74, 104, 0.8211659663865546) 27%, rgba(183, 188, 194, 0.3309698879551821) 59%, rgba(217, 217, 217, 0.20211834733893552) 81%),
+            url("/assets/images/about/dr-wilmar-background-3.png");
+    }
+}
+
+.see-more-section picture img {
+    display: block;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    background: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+.see-more-section .body {
+    height: 160px;
+    margin-bottom: 50px;
+}
+
+.see-more-section .body a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    transition: all .2s ease;
+}
+
+.see-more-section .body button {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-weight: 700;
+    border: none;
+    background-color: #042047;
+    width: 260px;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+.see-more-section .body button:hover {
+    background-color: #0c4594;
+}
+
+.see-more-section .body a:hover {
+    color: rgb(192, 191, 191);
+}
+
+.see-more-section .body h2 {
+    font-size: 2.2rem;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    max-width: 320px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (min-width: 744px) {
+    .see-more-section .body h2 {
+        max-width: 535px;
+        font-size: 2.8rem;
+        margin-top: 40px;
+    }
+
+    .see-more-section .body {
+        height: 160px;
+        margin-bottom: 90px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .see-more-section .body h2 {
+        max-width: 735px;
+        font-size: 3.2rem;
+        margin-top: 60px;
+    }
+
+    .see-more-section .body {
+        height: 160px;
+        margin-bottom: 120px;
+    }
+}
