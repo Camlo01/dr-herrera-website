@@ -21,8 +21,8 @@ function OurSurgeries() {
                 <div className='container'>
                     <h2> Tienes una <b className='orange'> vida</b>,<br /> <b> ¡Ahora juntos la haremos mejor!</b></h2>
                     <picture>
-                        <source srcSet={imageDoc3} media="(min-width: 1281px)" />
-                        <source srcSet={imageDoc2} media="(min-width: 745px) and (max-width: 1280px)" />
+                        <source srcSet={imageDoc3} media="(min-width: 1280px)" />
+                        <source srcSet={imageDoc2} media="(min-width: 745px) and (max-width: 1279px)" />
                         <source srcSet={imageDoc1} media="(max-width: 744px)" />
                         <img src={imageDoc1} alt="Dr. Wilmar Herrera" />
                     </picture>
