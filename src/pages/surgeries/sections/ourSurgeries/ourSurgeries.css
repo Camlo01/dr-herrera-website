@@ -1,0 +1,173 @@
+.our-surgeries-section {
+    background-color: #E5E5E5;
+    padding: 40px 0;
+    border-top: 3px solid rgb(184, 183, 183);
+    border-bottom: 3px solid rgb(184, 183, 183);
+}
+
+.our-surgeries-section .title {
+    padding: 0 40px 10px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    color: black;
+    max-width: 570px;
+}
+
+.our-surgeries-section .title h2 {
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 2.6rem;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.our-surgeries-section .title p {
+    font-family: 'Montserrat';
+    font-size: 1.8rem;
+    text-align: justify;
+    margin-bottom: 23px;
+}
+
+.our-surgeries-section .blue-card {
+    background-color: #042047;
+    color: white;
+    padding: 20px 0;
+    width: 90vw;
+    box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 27px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.our-surgeries-section .blue-card h2 {
+    font-family: 'Nunito';
+    font-size: 2.8rem;
+    max-width: 345px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.our-surgeries-section .blue-card h2 .orange {
+    color: var(--orange);
+}
+
+.our-surgeries-section .blue-card .card {
+    display: flex;
+    width: fit-content;
+    margin: 10px auto 10px;
+}
+
+.our-surgeries-section .blue-card .card>img {
+    width: 70px;
+    height: 70px;
+}
+
+.our-surgeries-section .blue-card .card .name {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.our-surgeries-section .blue-card .card .name h3 {
+    font-family: 'Nunito';
+    font-size: 2.8rem;
+}
+
+.our-surgeries-section .blue-card .card .name h3 {
+    font-family: 'Nunito';
+    font-size: 2.8rem;
+}
+
+.our-surgeries-section .blue-card .card .name h4 {
+    font-family: 'Nunito';
+    font-size: 1.6rem;
+    color: var(--orange);
+}
+
+.our-surgeries-section .blue-card picture img {
+    display: block;
+    margin: 0 auto;
+    width: 90vw;
+    min-width: 390px;
+    max-width: 390px;
+}
+
+@media (min-width: 744px) {
+
+    .our-surgeries-section {
+        padding-bottom: 50px;
+    }
+
+    .our-surgeries-section .title {
+        padding: 0 0 30px;
+        max-width: 575px;
+    }
+
+    .our-surgeries-section .title h2 {
+        font-size: 3.4rem;
+    }
+
+
+    .our-surgeries-section .title p {
+        font-size: 2rem;
+    }
+
+    .our-surgeries-section .blue-card {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 1280px) {
+
+
+    .our-surgeries-section .title {
+        display: block;
+        position: absolute;
+        color: white;
+        right: 0;
+        left: 0;
+        margin: auto;
+        padding-right: 520px;
+        width: 1060px;
+        margin-top: 110px;
+        max-width: none;
+    }
+
+    .our-surgeries-section .title h2 {
+        font-size: 4.2rem;
+    }
+
+    .our-surgeries-section .title p {
+        font-size: 2.4rem;
+    }
+
+    .our-surgeries-section .blue-card {
+        max-width: 1160px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .our-surgeries-section .blue-card .container picture img {
+        min-width: 0;
+        max-width: 380px;
+    }
+
+    .our-surgeries-section .blue-card::before {
+        content: "";
+        width: 50%;
+    }
+
+    .our-surgeries-section .container {
+        padding-left: 80px;
+    }
+
+}
