@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* Scroll settings */
-  scroll-padding-top: 130px;
+  /* scroll-padding-top: 130px; */
   scroll-behavior: smooth;
 
   /* Configure dark theme */
@@ -33,6 +33,6 @@ html {
 
 @media (min-width: 744px) {
   :root {
-    scroll-padding-top: 250px;
+    scroll-padding-top: 20px;
   }
 }
