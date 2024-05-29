@@ -6,10 +6,23 @@
     height: 485px;
     margin-bottom: 50px;
 }
+#calculadora {
+    scroll-margin-top: 40px;
+}
 
 @media (min-width: 720px) {
     .imc-calculator {
         margin-bottom: 0px;
+    }
+
+    #calculadora {
+        scroll-margin-top: 200px;
+    }
+}
+
+@media (min-width: 1280) {
+    #calculadora {
+        scroll-margin-top: 320px;
     }
 }
 

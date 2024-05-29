@@ -67,3 +67,19 @@
     border: none;
     width: 48%;
 }
+
+#imc-result {
+    scroll-margin-top: 60px;
+}
+
+@media (min-width: 720px) {
+    #imc-result {
+        scroll-margin-top: 200px;
+    }
+}
+
+@media (min-width: 1280) {
+    #imc-result {
+        scroll-margin-top: 320px;
+    }
+}

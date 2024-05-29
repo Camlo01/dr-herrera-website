@@ -14,7 +14,7 @@ export default function Layout() {
 
         // If go to another page
         if (!location.hash) {
-            window.scrollTo({ top: 100, behavior: 'smooth' });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         // If go to a section 
