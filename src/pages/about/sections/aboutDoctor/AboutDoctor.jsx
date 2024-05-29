@@ -10,7 +10,7 @@ function AboutDoctorSection() {
     return (
         <div>
             <div className='logo-contianer'>
-                <img src={logo} alt="" />
+                <img src={logo} alt="Logo Dr. Herrera" />
             </div>
 
             <section className='about-doctor-section'>
