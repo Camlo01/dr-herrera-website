@@ -1,6 +1,14 @@
+
+// Sections
+import IntroductionSection from "./sections/introduction/Introduction";
+import SocialSection from "./sections/socialSection/SocialSection";
+
 function Contact() {
     return (
-        <h1>Contacto</h1>
+        <>
+            <IntroductionSection />
+            <SocialSection />
+        </>
     );
 }
 
