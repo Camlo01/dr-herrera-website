@@ -10,7 +10,7 @@ function ImcResult({ imcResult }) {
             <div className="measure-container">
                 <Measurer imc={imcResult} />
             </div>
-            <h4>IMC: {imcResult}</h4>
+            <h4>IMC: {(imcResult > 100) ? '+100' : imcResult}</h4>
             <div className="result">
                 <p>{diagnostic(imcResult)}</p>
             </div>
