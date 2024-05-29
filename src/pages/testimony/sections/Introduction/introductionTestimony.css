@@ -15,14 +15,15 @@
     font-family: 'Montserrat';
     text-align: justify;
     font-size: 1.8rem;
+    font-weight: 500;
     width: 320px;
     margin: 0 auto;
 }
 
-.testimony-introduction .body :first-child {
+.testimony-introduction .body> :first-child {
     font-family: 'Open Sans';
     text-align: center;
-
+    font-weight: 400;
 }
 
 .testimony-introduction .body p {
