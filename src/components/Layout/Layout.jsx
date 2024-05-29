@@ -11,10 +11,17 @@ export default function Layout() {
     const location = useLocation();
 
     useEffect(() => {
+
+        // If go to another page
+        if (!location.hash) {
+            window.scrollTo({ top: 100, behavior: 'smooth' });
+        }
+
+        // If go to a section 
         if (location.hash) {
             const element = document.querySelector(location.hash);
             if (element) {
-                const yOffset = -35; // Ajuste del margen superior de 100px
+                const yOffset = -20;
                 const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
                 window.scrollTo({ top: y, behavior: 'smooth' });
             }
