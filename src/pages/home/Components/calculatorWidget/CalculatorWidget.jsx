@@ -7,14 +7,12 @@ import IMCIcon from '/assets/icons/IMC-icon.png'
 function CalculatorWidget() {
 
     const [isClosed, setIsClosed] = useState(false);
-
+    
     const handleClose = () => {
-        console.log('Click handleClose')
         setIsClosed(true);
     };
 
     const handleMouseEnter = () => {
-        console.log('Click handleMouseEnter')
         setIsClosed(false);
     };
 
