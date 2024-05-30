@@ -12,21 +12,23 @@ function SurgerySection() {
         <div className="surgery-section" id="cirugia-bariatrica">
             <section className="what-is">
                 <h2>¿Qué es la Cirugía Bariátrica?</h2>
-                <div className="container">
-                    <img src={surgeryImage} alt="Dr. Wilmar en cirugía" />
-                    <div className="body">
-                        <p className="introduction-text">La cirugía bariátrica actúa como un recurso que facilita la pérdida de peso de forma efectiva en individuos con obesidad.</p>
-                        <div className="stepped-out">
-                            <p>En esencia, la cirugía bariátrica implica intervenciones en el estómago o el sistema digestivo con el fin de inducir una sensación de saciedad más rápida o reducir la absorción de calorías de los alimentos.</p>
-                            <div className="column">
-                                <p>Esto facilita que la persona pierda peso de forma más segura y sostenida.</p>
-                                <p>Es una opción para quienes han intentado otros métodos sin éxito y necesitan una ayuda extra para mejorar su salud y calidad de vida.</p>
+                <div className="what-is-container">
+                    <div className="container">
+                        <img src={surgeryImage} alt="Dr. Wilmar en cirugía" />
+                        <div className="body">
+                            <p className="introduction-text">La cirugía bariátrica actúa como un recurso que facilita la pérdida de peso de forma efectiva en individuos con obesidad.</p>
+                            <div className="stepped-out">
+                                <p>En esencia, la cirugía bariátrica implica intervenciones en el estómago o el sistema digestivo con el fin de inducir una sensación de saciedad más rápida o reducir la absorción de calorías de los alimentos.</p>
+                                <div className="column">
+                                    <p>Esto facilita que la persona pierda peso de forma más segura y sostenida.</p>
+                                    <p>Yo defino la  cirugía  bariátrica como  un conjunto de procedimientos quirúrgicos que se realizan a personas con obesidad, dicha intervención se convierte en una gran herramienta efectiva y segura a corto y largo plazo, siempre y cuando exista un compromiso propio del paciente y un acompañamiento integral del equipo multidisciplinario para  generar un balance de hábitos saludables (dieta y actividad física), todo lo anterior con la finalidad de lograr y permanecer con un peso ideal y sin alteraciones nutricionales por el resto de la vida. </p>
+                                </div>
                             </div>
                         </div>
+                        <Link to={"/Cirugias"}>
+                            <div className="button">Conocer Más </div>
+                        </Link>
                     </div>
-                    <Link to={"/Cirugias"}>
-                        <div className="button">Conocer Más </div>
-                    </Link>
                 </div>
             </section>
 
