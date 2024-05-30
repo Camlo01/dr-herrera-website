@@ -33,6 +33,7 @@ function CarrouselSection() {
         dots: true,
         infinite: true,
         speed: 500,
+        variableWidth: true,
         slidesToShow: 4,
         initialSlide: 0,
         adaptiveHeight: true,
@@ -54,6 +55,7 @@ function CarrouselSection() {
             {
                 breakpoint: 810,
                 settings: {
+                    variableWidth: false,
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
@@ -61,6 +63,7 @@ function CarrouselSection() {
             {
                 breakpoint: 600,
                 settings: {
+                    variableWidth: false,
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
