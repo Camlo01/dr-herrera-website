@@ -4,12 +4,12 @@ import { PieChart, Pie, Cell } from 'recharts';
 
 const RADIAN = Math.PI / 180;
 const data = [
-    { name: 'bajo', value: 48.33, color: '#21A6F3' },
-    { name: 'normal', value: 32.55, color: '#40BC64' },
-    { name: 'sobrepeso', value: 24.17, color: '#FC5448' },
-    { name: 'obesidad1', value: 25.15, color: '#D4453B' },
-    { name: 'obesidad2', value: 24.16, color: '#A5332B' },
-    { name: 'obesidad3', value: 25.64, color: '#84261F' },
+    { id: 1, name: 'bajo', value: 48.33, color: '#21A6F3' },
+    { id: 2, name: 'normal', value: 32.55, color: '#40BC64' },
+    { id: 3, name: 'sobrepeso', value: 24.17, color: '#FC5448' },
+    { id: 4, name: 'obesidad1', value: 25.15, color: '#D4453B' },
+    { id: 5, name: 'obesidad2', value: 24.16, color: '#A5332B' },
+    { id: 6, name: 'obesidad3', value: 25.64, color: '#84261F' },
 ];
 
 const cx = 150;
@@ -65,7 +65,7 @@ function Measurer({ imc }) {
                     stroke="none"
                 >
                     {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={entry.color} />
+                        < Cell key={`${index}`} fill={entry.color} />
                     ))}
                 </Pie>
                 {needle(calculateAngle(imc), data, cx, cy, iR, oR, '#3F3E3F')}
