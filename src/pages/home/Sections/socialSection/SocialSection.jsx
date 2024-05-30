@@ -39,8 +39,8 @@ function SocialSection() {
                         </ul>
                         <div className="networks">
                             <Link to={InstagramURL} target="_blank"><img src={Instagram} alt="Instagram icon" /></Link>
-                            <Link to={FacebookURL} target="_blank"><img src={Facebook} alt="" /></Link>
-                            <Link to={TikTokURL} target="_blank"><img src={TikTok} alt="" /></Link>
+                            <Link to={FacebookURL} target="_blank"><img src={Facebook} alt="Facebook icon" /></Link>
+                            <Link to={TikTokURL} target="_blank"><img src={TikTok} alt="TikTok icon" /></Link>
                         </div>
                     </div>
                     <p>No te pierdas nuestras actualizaciones diarias, eventos especiales y contenido exclusivo. <b> ¡Estamos aquí para brindarle información útil y apoyo en su viaje hacia una vida más saludable! </b></p>
@@ -96,7 +96,7 @@ function IgComponent() {
             {isSmallScreen ? (
                 <div className="instagram-mini">
                     <Link to={InstagramURL} target="_blank">
-                        <img src={IgProfileMini} alt="" />
+                        <img src={IgProfileMini} alt="Instagram profile" />
                     </Link>
                 </div>
             ) : (

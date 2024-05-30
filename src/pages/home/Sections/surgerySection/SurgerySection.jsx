@@ -13,7 +13,7 @@ function SurgerySection() {
             <section className="what-is">
                 <h2>¿Qué es la Cirugía Bariátrica?</h2>
                 <div className="container">
-                    <img src={surgeryImage} alt="" />
+                    <img src={surgeryImage} alt="Dr. Wilmar en cirugía" />
                     <div className="body">
                         <p className="introduction-text">La cirugía bariátrica actúa como un recurso que facilita la pérdida de peso de forma efectiva en individuos con obesidad.</p>
                         <div className="stepped-out">
@@ -36,7 +36,7 @@ function SurgerySection() {
                     <div className="body-1">
                         <p>Determinar si eres candidato para someterte a una cirugía bariátrica es una decisión importante que debe tomarse con el asesoramiento de un equipo médico especializado.</p>
                         <div className="card">
-                            <img src={IMCIcon} alt="" />
+                            <img src={IMCIcon} alt="IMC icon" />
                             <h3>¡Calcula Tu IMC!</h3>
                         </div>
                     </div>

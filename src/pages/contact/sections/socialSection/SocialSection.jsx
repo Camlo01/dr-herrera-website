@@ -55,8 +55,8 @@ function SocialSection() {
                     </ul>
                     <div className="items">
                         <Link to={InstagramURL} target="_blank"><img src={Instagram} alt="Instagram icon" /></Link>
-                        <Link to={FacebookURL} target="_blank"><img src={Facebook} alt="" /></Link>
-                        <Link to={TikTokURL} target="_blank"><img src={TikTok} alt="" /></Link>
+                        <Link to={FacebookURL} target="_blank"><img src={Facebook} alt="Facebook icon" /></Link>
+                        <Link to={TikTokURL} target="_blank"><img src={TikTok} alt="TikTok icon" /></Link>
                     </div>
 
                 </div>

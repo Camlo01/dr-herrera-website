@@ -26,8 +26,8 @@ function IntroductionSection() {
                 <img src={logoDrHerrera} alt="Logo Dr, Herrera Cirujano Bariátrico by Mavri" />
                 <div className='who-i-am-container'>
                     <div className='photo'>
-                        <img src={blueVector} alt="" />
-                        <img src={drWilmarVector} alt="" />
+                        <img src={blueVector} alt="Vector photo" />
+                        <img src={drWilmarVector} alt="Dr. Wilmar Herrera" />
                         <Link to={"/Quien-soy"}><h2>¿Quén Soy?</h2></Link>
                     </div>
                     <div className='body'>

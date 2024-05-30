@@ -41,7 +41,7 @@ function ImcCalculator({ setImcResult }) {
             </div>
             <div className='inputs'>
                 <div>
-                    <img src={personIcon} alt="" className='person' />
+                    <img src={personIcon} alt="Person icon" className='person' />
                     <input id='height' type="text"
                         placeholder='Altura'
                         value={heightValue}
@@ -49,7 +49,7 @@ function ImcCalculator({ setImcResult }) {
                     <label htmlFor="height">{(isMetricSystem) ? "CM" : 'FT'}</label>
                 </div>
                 <div>
-                    <img src={weightMachine} alt="" className='weight-machine' />
+                    <img src={weightMachine} alt="Weight machine icon" className='weight-machine' />
                     <input id='weight' type="text"
                         placeholder='Peso'
                         value={weightValue}
