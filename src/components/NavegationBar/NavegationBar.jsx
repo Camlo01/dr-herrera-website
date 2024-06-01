@@ -31,9 +31,9 @@ function NavegationBar() {
                 </div>
                 <ul className={`nav-links ${isOpen ? 'active' : ''}`}>
                     <li><Link to={'/'} onClick={toggleMenu}>Inicio</Link></li>
-                    <li><Link to={'/Quien-Soy'} onClick={toggleMenu}>Quien Soy</Link></li>
                     <li><Link to={'/Cirugias'} onClick={toggleMenu}>Cirugías</Link></li>
                     <li><Link to={'/Testimonios'} onClick={toggleMenu}>Testimonios</Link></li>
+                    <li><Link to={'/Quien-Soy'} onClick={toggleMenu}>Quien Soy</Link></li>
                     <li><Link to={'/Contacto'} onClick={toggleMenu}>Contacto</Link></li>
                 </ul>
             </div>
