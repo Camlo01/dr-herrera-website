@@ -44,7 +44,7 @@ function SurgerySection() {
                     </div>
 
                     <div className="body-2">
-                        <p>Generalmente, los candidatos ideales son aquellos que tienen un índice de masa corporal <b>(IMC)</b>  superior a 40, o un IMC superior a 35 con condiciones de salud relacionadas con la obesidad, como diabetes tipo 2 o hipertensión arterial, y que no han logrado perder peso de manera efectiva con otros métodos como cambios en la dieta y ejercicio.</p>
+                        <p>Generalmente, los candidatos ideales son aquellos que tienen un índice de masa corporal <b>(IMC)</b>  superior a 40 o un índice de masa corporal superior a 30 con condiciones de salud relacionadas con la obesidad, como diabetes tipo 2 o hipertensión arterial, y que no han logrado perder peso de manera efectiva con otros métodos como cambios en la dieta y ejercicio.</p>
                         <a href="/#calculadora-imc">
                             <button>Obtener IMC</button>
                         </a>
