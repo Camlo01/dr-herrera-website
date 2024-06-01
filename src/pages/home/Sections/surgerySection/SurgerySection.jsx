@@ -33,7 +33,7 @@ function SurgerySection() {
             </section>
 
             <section className="am-candidate" id="soy-candidato">
-                <h2>¿Soy Candidato A La Cirugía?</h2>
+                <h2>¿Soy Candidato a la Cirugía?</h2>
                 <div className="body">
                     <div className="body-1">
                         <p>Determinar si eres candidato para someterte a una cirugía bariátrica es una decisión importante que debe tomarse con el asesoramiento de un equipo médico especializado.</p>

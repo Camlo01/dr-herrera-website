@@ -83,9 +83,9 @@ function TestimonySection() {
 
                 </div>
                 <div className='stories'>
-                    <h3>Su Historia Puede Ser la Próxima</h3>
+                    <h3>Tu Historia Puede Ser la Próxima</h3>
                     <div className='body'>
-                        <p>Descubra cómo la cirugía bariátrica ha cambiado las vidas de nuestros pacientes. Desde la recuperación de la salud hasta la renovación de la confianza en sí mismos, estas historias son testimonios de la efectividad y el impacto positivo de nuestros procedimientos:</p>
+                        <p>Descubre cómo la cirugía bariátrica ha cambiado las vidas de nuestros pacientes. Desde la recuperación de la salud hasta la renovación de la confianza en sí mismos, estas historias son testimonios de la efectividad y el impacto positivo de nuestros procedimientos:</p>
                         <p>Desde pérdidas de peso significativas hasta mejoras en la salud y la calidad de vida, cada historia es un testimonio poderoso de lo que es posible lograr con el apoyo adecuado.</p>
                     </div>
                 </div>

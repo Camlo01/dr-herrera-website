@@ -46,7 +46,7 @@ function SocialSection() {
                     <p>No te pierdas nuestras actualizaciones diarias, eventos especiales y contenido exclusivo. <b> ¡Estamos aquí para brindarle información útil y apoyo en su viaje hacia una vida más saludable! </b></p>
                 </div>
                 <div className="notes">
-                    <p>¿Tiene alguna pregunta o preocupación? No dude en enviarnos un <b> mensaje directo </b> a través de cualquiera de nuestras plataformas. <b> ¡Estamos aquí para ayudarte!</b></p>
+                    <p>¿Tienes alguna pregunta o preocupación? No dudes en enviarnos un <b> mensaje directo </b> a través de cualquiera de nuestras plataformas. <b> ¡Estamos aquí para ayudarte!</b></p>
                 </div>
             </section>
 
