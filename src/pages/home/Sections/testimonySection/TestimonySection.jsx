@@ -26,13 +26,13 @@ function TestimonySection() {
 
                         <div className='card'>
                             <div className='before'>
-                                <img src={testimonyImage11} alt="" />
+                                <img src={testimonyImage11} alt="Paciente antes de la cirugía bariátrica" />
                                 <div className='text'>
                                     <p>Antes</p>
                                 </div>
                             </div>
                             <div className='after'>
-                                <img src={testimonyImage12} alt="" />
+                                <img src={testimonyImage12} alt="Paciente después de la cirugía bariátrica" />
                                 <div className='text'>
                                     <p>Después</p>
                                 </div>
@@ -44,13 +44,13 @@ function TestimonySection() {
 
                         <div className='card' id='second-card' >
                             <div className='before'>
-                                <img src={testimonyImage21} alt="" />
+                                <img src={testimonyImage21} alt="Paciente antes de la cirugía bariátrica" />
                                 <div className='text'>
                                     <p>Antes</p>
                                 </div>
                             </div>
                             <div className='after'>
-                                <img src={testimonyImage22} alt="" />
+                                <img src={testimonyImage22} alt="Paciente después de la cirugía bariátrica" />
                                 <div className='text'>
                                     <p>Después</p>
                                 </div>
@@ -62,13 +62,13 @@ function TestimonySection() {
 
                         <div className='card' id='third-card'>
                             <div className='before'>
-                                <img src={testimonyImage31} alt="" />
+                                <img src={testimonyImage31} alt="Paciente antes de la cirugía bariátrica" />
                                 <div className='text'>
                                     <p>Antes</p>
                                 </div>
                             </div>
                             <div className='after'>
-                                <img src={testimonyImage32} alt="" />
+                                <img src={testimonyImage32} alt="Paciente después de la cirugía bariátrica" />
                                 <div className='text'>
                                     <p>Después</p>
                                 </div>
