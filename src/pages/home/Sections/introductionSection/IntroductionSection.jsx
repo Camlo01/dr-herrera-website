@@ -1,6 +1,3 @@
-
-import { Link } from 'react-router-dom'
-
 import DrWilmar from '/assets/images/home/doctor-wilmar-herrera-bariatrico.png'
 import logoDrHerrera from '/assets/logos/logo-dr-herrera-cirujano-bariatrico-by-mavri.png'
 import blueVector from '/assets/images/home/blue-vector.png'
@@ -28,7 +25,6 @@ function IntroductionSection() {
                     <div className='photo'>
                         <img src={blueVector} alt="Vector photo" />
                         <img src={drWilmarVector} alt="Dr. Wilmar Herrera" />
-                        <Link to={"/Quien-soy"}><h2>¿Quén Soy?</h2></Link>
                     </div>
                     <div className='body'>
                         <h2> <b> Doctor Wilmar Herrera </b>  <br /> Cirujano Bariátrico</h2>
