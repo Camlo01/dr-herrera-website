@@ -191,29 +191,24 @@
 
 .who-i-am-container .photo {
     width: 280px;
+    height: 254px;
     margin: 0 auto 30px;
 }
 
 .who-i-am-container .photo>img {
     position: absolute;
+    width: 286px;
+}
+
+.who-i-am-container .photo img:nth-child(1) {
+    margin-top: 12px;
+    height: 254px;
 }
 
 .who-i-am-container .photo img:nth-child(2) {
-    padding-left: 6px;
-}
-
-.who-i-am-container .photo a {
-    text-decoration: underline black;
-    text-underline-offset: 4px;
-
-}
-
-.who-i-am-container .photo h2 {
-    color: black;
-    width: fit-content;
-    margin: 0 auto;
-    padding-top: 255px;
-    font-size: 2.2rem;
+    position: absolute;
+    display: block;
+    height: 253px;
 }
 
 .who-i-am-container .body {
@@ -244,6 +239,15 @@
         align-items: center;
     }
 
+    .who-i-am-container .body {
+        margin-top: 0;
+    }
+
+    .who-i-am-container .photo {
+        margin: 0;
+        height: 280px;
+    }
+
     .who-i-am-container>div {
         width: 50%;
         height: fit-content;
@@ -258,25 +262,28 @@
 @media (min-width: 956px) {
 
     .who-i-am-container .photo {
-        width: 320px;
-        height: 320px;
+        height: 350px;
+        width: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .who-i-am-container .photo>img {
-        width: 320px;
-        margin: 0 auto 30px;
+        display: block;
+        margin: 0 auto;
     }
 
-    .who-i-am-container .photo h2 {
-        padding-top: 285px;
-        font-size: 2.2rem;
+    .who-i-am-container .photo img:nth-child(1) {
+        margin-top: 33px;
+        width: 360px;
+        height: 330px;
     }
+
 
     .who-i-am-container .photo img:nth-child(2) {
-        height: 280px;
-        width: 312px;
-        padding-bottom: 8px;
-        padding-left: 7px;
+        width: 360px;
+        height: 330px;
     }
 
     .who-i-am-container .body {
