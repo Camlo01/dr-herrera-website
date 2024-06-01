@@ -9,7 +9,7 @@
 
 .navbar .container {
     width: 100%;
-    max-width: 1120px;
+    max-width: 1123px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,9 @@
 }
 
 .icono-izquierdo .icono {
-    max-width: 135px;
+    display: block;
+    height: 45px;
+    width: 45px;
     content: url("/assets/logos/logo-cirugia-bariatrica.png");
 }
 
@@ -76,6 +78,8 @@
 
 /* Responsive */
 @media (max-width: 768px) {
+
+
     .hamburger {
         display: flex;
     }
@@ -105,9 +109,18 @@
 
 
     .icono-izquierdo .icono {
-        max-height: 40px;
+        /* max-height: 40px; */
         content: url("/assets/logos/isotipo.png");
     }
 
 
+}
+
+
+
+@media (min-width: 768px) {
+    .icono-izquierdo .icono {
+        width: 182px;
+        height: 70px;
+    }
 }
