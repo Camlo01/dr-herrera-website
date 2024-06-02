@@ -59,7 +59,7 @@ function SocialSection() {
                 <div className="contact">
                     <p>Si deseas más información, no dudes en contactarnos</p>
                     <Link to="/Contacto">
-                        <button>Contactar</button>
+                        <button>Contacto</button>
                     </Link>
                 </div>
 
