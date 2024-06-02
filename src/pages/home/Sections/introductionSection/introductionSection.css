@@ -180,7 +180,9 @@
 
 .who-i-am-section>img {
     display: block;
-    width: 235px;
+    /* width: 235px; */
+    width: 291px;
+    height: 213px;
     margin: 0 auto;
     padding: 50px 0;
 }
