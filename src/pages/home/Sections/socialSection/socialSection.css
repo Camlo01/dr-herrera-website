@@ -97,7 +97,6 @@
 
 /* Instagram Section */
 .social-media-section .instagram {
-
     padding: 40px 30px 60px;
 }
 
@@ -202,8 +201,6 @@
         margin-bottom: 30px;
     }
 
-
-
 }
 
 
@@ -219,9 +216,9 @@
         width: 50%\;
     }
 
-
     .social-media-section .social-media h2 {
         font-size: 3.6rem;
+        margin-bottom: 15px;
     }
 
     .social-media-section .social-media>p {
@@ -234,6 +231,9 @@
 
     .social-media-section .social-media .body {
         padding-top: 40px;
+        max-height: fit-content;
+        margin: 0 auto;
+
     }
 
     .social-media-section .social-media .body h3 {
@@ -246,6 +246,7 @@
 
     .social-media-section .social-media .body-container>p {
         font-size: 2rem;
+        margin-bottom: 40px;
         max-width: 400px;
     }
 
@@ -255,13 +256,14 @@
         text-align: justify;
     }
 
-
-
-
-
     .social-media-section .instagram h2 {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        padding-bottom: 0;
+        font-size: 3.6rem;
     }
 
+    .social-media-section .instagram p {
+        margin-bottom: 30px;
+    }
 
 }
