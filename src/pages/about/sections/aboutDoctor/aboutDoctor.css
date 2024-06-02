@@ -46,7 +46,6 @@
     font-size: 2.8rem;
     font-family: 'Nunito';
     font-weight: 800;
-    font-style: italic;
     margin-bottom: 10px;
 }
 
@@ -141,14 +140,12 @@
 
     .about-doctor-section .container-body h3 {
         max-width: 540px;
-        padding-left: 30px;
         font-size: 4rem;
     }
 
     .about-doctor-section .container-body p {
         max-width: 540px;
         font-size: 2.2rem;
-        text-align: start;
         margin-bottom: 20px;
     }
 
