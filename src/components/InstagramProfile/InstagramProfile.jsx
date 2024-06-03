@@ -43,7 +43,12 @@ function InstagramProfile() {
 
     return (
         <div className='instagram-iframe-container'>
-            <iframe src={InstagramURL} width={widthiFrame} height={heightiFrame} scrolling="no" allowTransparency="true"></iframe>
+            <iframe
+                title='Instagram profile'
+                src={InstagramURL}
+                width={widthiFrame}
+                height={heightiFrame}
+                scrolling="no" allowTransparency="true"></iframe>
         </div>
     );
 }
