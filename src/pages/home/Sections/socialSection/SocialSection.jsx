@@ -10,8 +10,6 @@ import Instagram from '/assets/icons/social-media/Instagram.svg'
 import Facebook from '/assets/icons/social-media/Facebook.svg'
 import TikTok from '/assets/icons/social-media/TikTok.svg'
 
-import IgProfileMini from '/assets/icons/social-media/ig-profile-mini.png'
-
 function SocialSection() {
 
     const InstagramURL = 'https://www.instagram.com/doc.herrerabariatrico';
@@ -28,13 +26,14 @@ function SocialSection() {
                         <h3>Síguenos en:</h3>
                         <ul>
                             <li>
-                                <Link>Instagram: @doc.herrerabariatrico</Link>
+                                <Link to={InstagramURL} target="_blank">Instagram: @doc.herrerabariatrico</Link>
                             </li>
                             <li>
-                                <Link>Facebook: Dr Herrera cirujano</Link>
+                                <Link to={FacebookURL} target="_blank">Facebook: Dr Herrera cirujano bariatrico
+                                </Link>
                             </li>
                             <li>
-                                <Link>TikTok: docherrerabariatrico</Link>
+                                <Link to={TikTokURL} target="_blank">TikTok: docherrerabariatrico</Link>
                             </li>
                         </ul>
                         <div className="networks">
@@ -54,7 +53,7 @@ function SocialSection() {
                 <h2>¡Síguenos en Instagram!</h2>
                 <p>Compartimos la actualización del progreso de nuestros pacientes después de su cirugía</p>
 
-                <IgComponent />
+                <InstagramProfile />
 
                 <div className="contact">
                     <p>Si deseas más información, no dudes en contactarnos</p>
@@ -71,40 +70,3 @@ function SocialSection() {
 }
 
 export default SocialSection;
-
-function IgComponent() {
-
-    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 744);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsSmallScreen(window.innerWidth < 744);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
-
-    const InstagramURL = 'https://www.instagram.com/doc.herrerabariatrico';
-
-
-    return (
-        <>
-            {isSmallScreen ? (
-                <div className="instagram-mini">
-                    <Link to={InstagramURL} target="_blank">
-                        <img src={IgProfileMini} alt="Instagram profile" />
-                    </Link>
-                </div>
-            ) : (
-                <div className="instagram-profile-container">
-                    <InstagramProfile />
-                </div>
-            )
-            }
-        </>
-    );
-}
