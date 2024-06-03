@@ -109,16 +109,13 @@
 
 
     .icono-izquierdo .icono {
-        /* max-height: 40px; */
         content: url("/assets/logos/isotipo.png");
     }
-
 
 }
 
 
-
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .icono-izquierdo .icono {
         width: 182px;
         height: 70px;
