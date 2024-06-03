@@ -47,7 +47,7 @@ function SocialSection() {
                             <Link to={InstagramURL} target="_blank" >Instagram: @doc.herrerabariatrico</Link>
                         </li>
                         <li>
-                            <Link to={FacebookURL} target="_blank">Facebook: Dr Herrera cirujano</Link>
+                            <Link to={FacebookURL} target="_blank">Facebook: Dr Herrera cirujano bariatrico</Link>
                         </li>
                         <li>
                             <Link to={TikTokURL} target="_blank">TikTok: docherrerabariatrico</Link>
@@ -67,11 +67,11 @@ function SocialSection() {
                 <h2>Información de Contacto</h2>
                 <div className="container">
                     <div>
-                        <p>Agenda una cita para tu valoración médica, no dudes en llamarnos o escribinos.</p>
+                        <p>Agenda una cita para tu valoración médica, no dudes en llamarnos o escribirnos.</p>
                         <ul>
                             <li>
                                 <img src={MailIcon} alt="Mail icon" />
-                                <a id="mail" href={mailHref} target="_blank">docherrerawilmar@gmail.com</a>
+                                <a id="mail" href={mailHref} target="_blank">drherreracirujanobariatrico@gmail.com</a>
                             </li>
                             <li>
                                 <img src={PhoneIcon} alt="Phone icon" />

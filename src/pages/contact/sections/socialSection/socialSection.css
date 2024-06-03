@@ -83,13 +83,17 @@
 }
 
 .social-section .info ul {
-    max-width: 375px;
+    max-width: 409px;
     margin: 0 auto 40px;
 }
 
 .social-section .info ul li {
     list-style: none;
     display: flex;
+}
+
+.social-section .info ul li:nth-child(1) a {
+    word-break: break-all;
 }
 
 .social-section .info ul li img {
