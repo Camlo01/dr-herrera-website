@@ -331,8 +331,16 @@
 .am-candidate .image img {
     width: 100vw;
     display: block;
-    max-width: 450px;
+    max-width: 100%;
     margin: 0 auto;
+}
+
+@media (min-width: 450px) {
+
+    .am-candidate .image img {
+        width: 100vw;
+        max-width: 450px;
+    }
 }
 
 .am-candidate .image p {
