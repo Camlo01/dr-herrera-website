@@ -7,12 +7,12 @@ import ContactSection from './sections/contact/ContactSection.jsx';
 
 function Surgeries() {
     return (
-        <>
+        <div className='surgeries-page'>
             <IntroductionSection />
             <OurSurgeries />
             <SurgeriesSection />
             <ContactSection />
-        </>
+        </div>
     );
 }
 
