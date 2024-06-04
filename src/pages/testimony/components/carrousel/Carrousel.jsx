@@ -21,14 +21,17 @@ function Carrousel() {
         }
     };
 
+    const widthVideo = '253px'
+    const heightVideo = '450px'
+
     return (
         <div className="slider-container">
             <Slider {...settings}>
                 {/* First Case */}
                 <div className="card">
                     <div className="content-container">
-                        <video height="451px" controls >
-                            <source src={`./assets/videos/testimony/Testimonio-video-1.MP4`} type="video/mp4" />
+                        <video height={heightVideo} width={widthVideo} controls >
+                            <source src={`./assets/videos/testimony/Testimonio-video-1.mp4`} type="video/mp4" />
                             Tu navegador no soporta el elemento de video.
                         </video>
                     </div>
@@ -42,8 +45,8 @@ function Carrousel() {
                 {/* Second Case */}
                 <div className="card">
                     <div className="content-container">
-                        <video height="451px" controls >
-                            <source src={`./assets/videos/testimony/Testimonio-video-2.MP4`} type="video/mp4" />
+                        <video height={heightVideo} width={widthVideo} controls >
+                            <source src={`./assets/videos/testimony/Testimonio-video-2.mp4`} type="video/mp4" />
                             Tu navegador no soporta el elemento de video.
                         </video>
                     </div>
@@ -57,8 +60,8 @@ function Carrousel() {
                 {/* Third Case */}
                 <div className="card">
                     <div className="content-container">
-                        <video height="451px" controls >
-                            <source src={`./assets/videos/testimony/Testimonio-video-3.MP4`} type="video/mp4" />
+                        <video height={heightVideo} width={widthVideo} controls >
+                            <source src={`./assets/videos/testimony/Testimonio-video-3.mp4`} type="video/mp4" />
                             Tu navegador no soporta el elemento de video.
                         </video>
                     </div>
@@ -72,8 +75,8 @@ function Carrousel() {
                 {/* Fourth Case */}
                 <div className="card">
                     <div className="content-container">
-                        <video height="451px" controls>
-                            <source src={`./assets/videos/testimony/Testimonio-video-4.MP4`} type="video/mp4" />
+                        <video height={heightVideo} width={widthVideo} controls>
+                            <source src={`./assets/videos/testimony/Testimonio-video-4.mp4`} type="video/mp4" />
                             Tu navegador no soporta el elemento de video.
                         </video>
                     </div>
