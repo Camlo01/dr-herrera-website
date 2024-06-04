@@ -20,6 +20,7 @@
 
 .years-experience-section p {
     font-family: 'Montserrat';
+    font-weight: 500;
     font-size: 1.8rem;
     text-align: justify;
     padding: 0 30px;
@@ -67,5 +68,9 @@
 
     .years-experience-section hr {
         width: 25vw;
+    }
+
+    .years-experience-section p {
+        font-size: 2rem;
     }
 }

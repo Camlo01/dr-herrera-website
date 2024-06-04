@@ -116,7 +116,6 @@
 }
 
 .location-section .map .body-container {
-    background-color: red;
     background-image: url('/assets/backgrounds/golden.jpg');
     background-position: center;
     background-size: cover;

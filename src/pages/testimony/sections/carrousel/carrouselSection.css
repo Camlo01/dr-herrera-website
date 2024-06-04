@@ -24,8 +24,9 @@
 
 @media (min-width: 1280px) {
     .carrousel-section h2 {
-        font-size: 3.8rem;
-        max-width: 370px;
+        font-size: 4.2em;
+        max-width: 420px;
+        font-weight: 700;
     }
 }
 

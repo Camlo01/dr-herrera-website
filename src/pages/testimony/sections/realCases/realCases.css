@@ -32,7 +32,7 @@
 
 .testimony-cases .histories .body {
     font-family: 'Montserrat';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.8rem;
     text-align: justify;
     width: 320px;
@@ -60,7 +60,7 @@
     }
 
     .testimony-cases .histories .body {
-        font-size: 2.2rem;
+        font-size: 2rem;
         width: 575px;
     }
 }

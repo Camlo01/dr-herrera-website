@@ -1,14 +1,5 @@
 .testimony-introduction {
-    padding: 40px 0 60px;
-}
-
-.testimony-introduction h1 {
-    font-family: 'Nunito';
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 20px;
+    padding: 50px 0;
 }
 
 .testimony-introduction .body {
@@ -20,11 +11,6 @@
     margin: 0 auto;
 }
 
-.testimony-introduction .body> :first-child {
-    font-family: 'Open Sans';
-    text-align: center;
-    font-weight: 400;
-}
 
 .testimony-introduction .body p {
     padding-bottom: 15px;
@@ -32,37 +18,21 @@
 
 @media (min-width:744px) {
 
-    .testimony-introduction h1 {
-        font-size: 3.4rem;
-    }
-
     .testimony-introduction .body {
         font-size: 2rem;
         width: 575px;
     }
 
-    .testimony-introduction .body :first-child {
-        width: 482px;
-        margin: 0 auto;
-    }
 
 }
 
 @media (min-width: 1279px) {
 
-    .testimony-introduction h1 {
-        font-size: 4.2rem;
-    }
-
     .testimony-introduction .body p {
-        width: 833px;
+        width: 930px;
         margin: 0 auto;
     }
 
-    .testimony-introduction .body :first-child {
-        width: 743px;
-        padding-bottom: 40px;
-    }
 
     .testimony-introduction .body {
         width: fit-content;

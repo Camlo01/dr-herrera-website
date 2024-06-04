@@ -50,9 +50,10 @@
 }
 
 .about-doctor-section .container-body p {
-    font-size: 1.8rem;
-    text-align: justify;
     font-family: 'Montserrat';
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: justify;
     margin-bottom: 30px;
 }
 
@@ -145,7 +146,7 @@
 
     .about-doctor-section .container-body p {
         max-width: 540px;
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-bottom: 20px;
     }
 

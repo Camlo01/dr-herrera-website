@@ -76,7 +76,7 @@
 @media (min-width: 744px) {
 
     .testimony-invitation>p:first-child {
-        font-size: 2.2rem;
+        font-size: 2rem;
         width: 575px;
     }
 
@@ -86,7 +86,8 @@
 
     .testimony-invitation>p:first-child {
         padding: 40px 0;
-        width: 833px;
+        width: fit-content;
+        max-width: 930px;
     }
 
 }

@@ -1,8 +1,51 @@
 .introduction-section {
-    padding: 40px 30px 50px;
+    padding: 50px 30px;
 }
 
-.introduction-section h1 {
+
+/* CONTENT SECTION */
+
+.introduction-section .content-section {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    max-width: 630px;
+    font-size: 1.8rem;
+    padding: 0 30px 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.introduction-section .content-section ul {
+    margin: 0 auto;
+}
+
+.introduction-section .content-section ul li {
+    width: fit-content;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* FINISH CONTENT SECTION */
+
+.introduction-section .content-section p {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.introduction-section.content-section ul {
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    width: fit-content;
+}
+
+.introduction-section .content-section ul li {
+    margin-bottom: 6px;
+    width: fit-content;
+}
+
+/* .introduction-section h1 {
     font-family: 'Nunito';
     font-weight: 800;
     font-size: 3rem;
@@ -19,7 +62,7 @@
     text-align: center;
     font-weight: 500;
     margin-bottom: 15px;
-}
+} */
 
 .introduction-section p {
     font-family: 'Montserrat';
@@ -32,12 +75,16 @@
 
 @media (min-width: 744px) {
 
-    .introduction-section h1 {
+    /* .introduction-section h1 {
         font-size: 3.6rem;
-    }
+    } */
 
     .introduction-section h2,
     .introduction-section p {
+        font-size: 2rem;
+    }
+
+    .introduction-section .content-section p{
         font-size: 2rem;
     }
 
@@ -45,7 +92,7 @@
 
 @media (min-width: 1280px) {
 
-    .introduction-section h1 {
+    /* .introduction-section h1 {
         font-size: 4.2rem;
         margin-bottom: 20px;
     }
@@ -58,6 +105,16 @@
     .introduction-section p {
         font-size: 2.2rem;
         max-width: 930px;
+    } */
+
+    .introduction-section p {
+        max-width: 930px;
+        font-size: 2rem;
     }
+
+    .introduction-section .content-section {
+        font-size: 2rem;
+    }
+
 
 }

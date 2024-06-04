@@ -1,5 +1,5 @@
 .introduction-section {
-    padding: 40px 30px 50px;
+    padding: 40px 50px;
 }
 
 .introduction-section h1 {
@@ -52,7 +52,7 @@
 
     .introduction-section p {
         font-size: 2rem;
-        max-width: 830px;
+        max-width: 930px;
     }
 
 }

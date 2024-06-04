@@ -403,8 +403,13 @@
         max-width: 1100px;
     }
 
+
+    .am-candidate .body>div {
+        width: 100%;
+    }
+
     .am-candidate .body p {
-        max-width: 450px;
+        max-width: 520px;
         font-size: 2rem;
     }
 
