@@ -50,8 +50,16 @@ function diagnostic(imc) {
         return `Obesidad 2`
     }
 
-    if (imc >= 40) {
+    if (imc >= 40 && imc < 50) {
         return `Obesidad 3`
+    }
+
+    if (imc >= 50 && imc < 60) {
+        return `Obesidad 4`
+    }
+
+    if (imc >= 60) {
+        return `Obesidad 5`
     }
 
 }
@@ -67,7 +75,7 @@ function comentary(imc) {
     }
 
     if (imc >= 18.5 && imc < 25) {
-        return `Tu IMC es normal. Buen trabajo, sigue cuidándote para mantener tu bienestar`
+        return `Tu IMC es normal. Buen trabajo, sigue cuidándote para mantener tu bienestar.`
     }
 
     if (imc >= 25 && imc < 30) {
@@ -75,15 +83,23 @@ function comentary(imc) {
     }
 
     if (imc >= 30 && imc < 35) {
-        return `Tu IMC indica obesidad clase 1. Es importante tomar medidas para mejorar tu salud.`
+        return `Tu IMC indica obesidad clase 1. Podrías ser candidato para cirugía bariátrica.`
     }
 
     if (imc >= 35 && imc < 40) {
-        return `Tu IMC sugiere obesidad severa. Consulta a un profesional de la salud para recibir orientación y apoyo`
+        return `Tu IMC indica obesidad clase 2. Consulta a un profesional de la salud para recibir orientación y apoyo.`
     }
 
-    if (imc >= 40) {
-        return `Tienes obesidad extrema. La intervención médica puede ser necesaria para mejorar tu salud.`
+    if (imc >= 40 && imc < 50) {
+        return `Tienes obesidad clase 3. Eres candidato para cirugía bariátrica.`
+    }
+
+    if (imc >= 50 && imc < 60) {
+        return `Tienes obesidad clase 4 o super obesidad. Eres candidado para cirugía bariátrica.`
+    }
+
+    if (imc >= 60) {
+        return `Tienes obesidad clase 5 o super super obesidad. Eres candidadto para cirugía bariátrica.`
     }
 
 }
