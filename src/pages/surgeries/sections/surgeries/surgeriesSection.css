@@ -68,8 +68,15 @@
 .surgeries-page .surgery-section h3,
 .surgeries-page .surgery-section ul,
 .surgeries-page .surgery-section .indications {
+    font-family: 'Montserrat';
     max-width: 530px;
     margin: 0 auto;
+}
+
+.surgeries-page .surgery-section p,
+.surgeries-page .surgery-section q,
+.surgeries-page .surgery-section .indications {
+    font-weight: 500;
 }
 
 .surgeries-page .surgeries-section .surgery-section q {
@@ -128,6 +135,7 @@
 
 .surgeries-page .surgeries-section .surgery-section ul li {
     font-size: 1.8rem;
+    font-weight: 500;
     margin-bottom: 5px;
 }
 
@@ -164,12 +172,13 @@
 
 .surgeries-page .surgeries-section .surgery-section .indications h4 {
     font-size: 1.9rem;
+    font-weight: 700;
     margin-bottom: 5px;
 }
 
 .surgeries-page .surgeries-section .surgery-section .indications p {
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 0;
 }
 
@@ -186,6 +195,11 @@
 
     .surgeries-page .surgeries-section .surgery-section .indications {
         padding: 0 30px;
+        margin-bottom: 20px;
+    }
+
+    .surgeries-page .surgeries-section .surgery-section .indications p {
+        font-size: 2rem;
     }
 
     .surgeries-page .surgeries-section .surgery-section h2 {
@@ -228,6 +242,11 @@
         width: 331px;
         height: 249px;
         margin: 0 auto;
+    }
+
+
+    .surgeries-page .surgeries-section .surgery-section ul li {
+        font-size: 2rem;
     }
 
 }
@@ -286,34 +305,21 @@
 
 .surgeries-page .surgeries-section .surgery-section .container-photos {
     display: flex;
-    flex-direction: column;
-    height: fit-content;
-    justify-content: space-around;
-    align-items: space;
-    margin: 0 auto;
-}
-
-.surgeries-page .surgeries-section .surgery-section .container-photos img {
-    height: 420px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
     margin: 10px auto;
 }
 
+.surgeries-page .surgeries-section .surgery-section .container-photos img {
+    display: block;
+    height: 400px;
+    width: auto;
+}
+
 @media (min-width: 584px) {
-    .surgeries-page .surgeries-section .surgery-section .container-photos {
-        max-width: 720px;
-        flex-direction: row;
-    }
-}
-
-
-@media (min-width: 744px) {
-    .surgeries-page .surgeries-section .surgery-section .container-photos {
-        max-width: 720px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .surgeries-page .surgeries-section .surgery-section .container-photos img{
-        height: 560px;
+    .surgeries-page .surgeries-section .surgery-section .container-photos img {
+        height: 500px;
     }
 }
