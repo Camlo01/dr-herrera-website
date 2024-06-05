@@ -21,7 +21,7 @@ function AboutDoctorSection() {
 
                 <div className='container-body'>
                     <h3>¿Quién Soy?</h3>
-                    <p>Soy Wilmar Herrera, Colombiano, soy Doctor egresado de la universidad Javeriana, tengo especialidad médica en cirugía general, cirugía laparoscópica avanzada y en Cirugía Bariátrica. Me complace mucho que estes visitando mi página. Mi objetivo es ofrecerte una atención integral y personalizada para ayudarte a alcanzar tus objetivos de salud y bienestar.</p>
+                    <p>Soy Wilmar Herrera, Colombiano, soy médico y especialista egresado de la universidad Javeriana, especialista especialidad médica en cirugía general, cirugía laparoscópica avanzada y en Cirugía Bariátrica. Me complace mucho que estes visitando mi página. Mi objetivo es ofrecerte una atención integral y personalizada para ayudarte a alcanzar tus objetivos de salud y bienestar.</p>
                     <p>Aprovecho para decirte que cuentas con mi apoyo, para compartirles todo mi conocimiento y asesoramiento profesional referente a la cirugía bariátrica. </p>
 
                     <div className='image'>

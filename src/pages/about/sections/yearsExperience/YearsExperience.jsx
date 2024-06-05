@@ -16,7 +16,7 @@ function YearsExperience() {
                     <source srcSet={imageDoc1} media="(max-width: 744px)" />
                     <img src={imageDoc1} alt="Dr Wilmar Herrera" />
                 </picture>
-                <p>Desde el año 2014 hice parte del grupo de cirugía bariátrica, con el fin de reunir todos los requisitos, en donde se contemplan cantidad de cirugías realizadas, logrando así poder ingresar con miembro activo a la asociación colombiana de obesidad y cirugía bariátrica (ACOCIB). Mi experiencia probada en cirugía bariátrica garantiza la aplicación de procedimientos seguros y efectivos para abordar la obesidad y sus complicaciones con profesionalismo y calidad. Estoy aquí para ofrecerte intervenciones quirúrgicas de última generación, así como el apoyo y la orientación necesaria en tu camino hacia una vida más saludable y plena.</p>
+                <p>Desde el año 2014 hice parte del grupo de cirugía bariátrica, con el fin de reunir todos los requisitos, en donde se contemplan cantidad de cirugías realizadas, logrando así poder ingresar como miembro activo a la asociación colombiana de obesidad y cirugía bariátrica (ACOCIB). Mi experiencia probada en cirugía bariátrica garantiza la aplicación de procedimientos seguros y efectivos para abordar la obesidad y sus complicaciones con profesionalismo y calidad. Estoy aquí para ofrecerte intervenciones quirúrgicas de última generación, así como el apoyo y la orientación necesaria en tu camino hacia una vida más saludable y plena.</p>
             </div>
             <hr />
 
