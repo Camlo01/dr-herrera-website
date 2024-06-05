@@ -1,5 +1,6 @@
 .slider-container {
     width: 330px;
+    display: block;
 }
 
 .slider-container .card {
@@ -23,6 +24,26 @@
 .slider-container .card .content-container video {
     height: 451px;
     background-color: rgba(0, 0, 0, 0.418);
+}
+
+.slider-container .card .body-container {
+    display: block;
+    /* height: 230px; */
+    padding-bottom: 0px;
+}
+
+@media (max-width: 1280px) {
+    .slider-container .card .body-container {
+        display: block;
+        height: fit-content;
+        padding-bottom: 120px;
+    }
+
+
+}
+
+.slider-container .card .image-container {
+    margin-top: 60px;
 }
 
 .slider-container .card img {
@@ -81,7 +102,7 @@
     .slider-container .card p {
         font-size: 2rem;
         font-weight: 500;
-        width: 500px;
+        width: 100%;
     }
 
 

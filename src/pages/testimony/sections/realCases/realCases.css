@@ -17,8 +17,19 @@
 
 .blue-container .carrousel-container {
     width: 330px;
-    height: 700px;
+    min-height: 680px;
     margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .blue-container .carrousel-container {
+        width: 330px;
+        height: auto;
+        height: fit-content;
+        margin: 0 auto;
+        padding: 0 0 60px;
+    }
+
 }
 
 .testimony-cases .histories h2 {
@@ -71,7 +82,6 @@
         display: flex;
         background-color: #2A67BC;
         margin: 0 auto;
-        display: flex;
         justify-content: center;
         color: white;
     }
