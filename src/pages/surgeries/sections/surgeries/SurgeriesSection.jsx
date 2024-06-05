@@ -50,7 +50,7 @@ function SurgeriesSection() {
                 </ul>
             </div>
 
-            <div className='manga-gastrica-section surgery-section'>
+            <div className='manga-gastrica-section surgery-section' id='Manga-gastrica'>
                 <h3>Manga Gástrica</h3>
                 <div className='container-photos'>
                     <img src={imgGastricSleeve1} alt="Manga gástrica" />
@@ -74,7 +74,7 @@ function SurgeriesSection() {
             </div>
 
 
-            <div className='bypass-gastrico-section surgery-section'>
+            <div className='bypass-gastrico-section surgery-section' id='Bypass-gastrico'>
                 <h3>Bypass Gástrico</h3>
                 <p>El bypass gástrico, también denominado "bypass gástrico en Y de Roux", es un tipo de cirugía para bajar de peso que consiste en crear una pequeña bolsa desde el estómago y conectar la bolsa recién creada directamente con el intestino delgado. Después del baipás gástrico, los alimentos ingeridos entrarán en esta pequeña bolsa del estómago y, a continuación, directamente en el intestino delgado, sin pasar por la mayor parte del estómago y la primera sección del intestino delgado. El baipás gástrico es uno de los tipos de cirugía bariátrica que se realizan con más frecuencia.</p>
 
