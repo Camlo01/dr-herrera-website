@@ -84,6 +84,12 @@
     font-weight: 600;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+    font-display: swap;
+}
 
 /* Open Sans */
 
