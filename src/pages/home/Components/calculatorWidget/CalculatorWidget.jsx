@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import './calculatorWidget.css'
 
@@ -7,7 +7,17 @@ import IMCIcon from '/assets/icons/IMC-icon.png'
 function CalculatorWidget() {
 
     const [isClosed, setIsClosed] = useState(false);
-    
+    const [btnActiom, setBtnAction] = useState('')
+
+    const textBehaviorAction = () => {
+        setBtnAction((window.innerWidth >= 744) ? "Realizar test" : "Calcula tu índice de masa corporal")
+    }
+
+    useEffect(() => {
+        textBehaviorAction()
+        addEventListener("resize", textBehaviorAction);
+    }, [])
+
     const handleClose = () => {
         setIsClosed(true);
     };
@@ -31,7 +41,7 @@ function CalculatorWidget() {
             <p>Determina con ayuda de nuestra calculadora si estás dentro de tu peso ideal (índice de masa corporal)</p>
             <h3 onClick={handleTakeTest}>
                 {/* href for set the id of the section with the imc calculator */}
-                <a href="/#calculadora">Realizar Test</a>
+                <a href="/#calculadora">{btnActiom}</a>
             </h3>
         </div>
 
