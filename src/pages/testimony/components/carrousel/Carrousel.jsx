@@ -7,7 +7,7 @@ import './carrousel.css';
 function Carrousel() {
     const settings = {
         className: "",
-        lazyLoad: true,
+        lazyLoad: false,
         dots: true,
         infinite: true,
         slidesToShow: 1,
