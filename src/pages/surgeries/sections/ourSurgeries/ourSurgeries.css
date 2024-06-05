@@ -151,7 +151,7 @@
     }
 
     .our-surgeries-section .blue-card {
-        max-width: 1160px;
+        max-width: none;
         display: flex;
         margin: 0 auto;
     }
