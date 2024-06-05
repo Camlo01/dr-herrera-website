@@ -5,6 +5,7 @@
 
 .ws-btn img {
     position: fixed;
+    z-index: 1;
     background-color: transparent;
     width: 95px;
     left: 20px;
