@@ -213,6 +213,12 @@
     height: 253px;
 }
 
+@media (min-width: 744px) {
+    .who-i-am-container .photo img:nth-child(2) {
+        content: url('/assets/images/home/dr-wilmar-vector-2.png');
+    }
+}
+
 .who-i-am-container .body {
     padding: 0 35px;
 }
