@@ -4,12 +4,14 @@ import { PieChart, Pie, Cell } from 'recharts';
 
 const RADIAN = Math.PI / 180;
 const data = [
-    { id: 1, name: 'bajo', value: 48.33, color: '#21A6F3' },
-    { id: 2, name: 'normal', value: 32.55, color: '#40BC64' },
-    { id: 3, name: 'sobrepeso', value: 24.17, color: '#FC5448' },
-    { id: 4, name: 'obesidad1', value: 25.15, color: '#D4453B' },
-    { id: 5, name: 'obesidad2', value: 24.16, color: '#A5332B' },
-    { id: 6, name: 'obesidad3', value: 25.64, color: '#84261F' },
+    { id: 1, name: 'bajo', value: 50.95384615, color: '#21A6F3' },
+    { id: 2, name: 'normal', value: 17.72307692, color: '#40BC64' },
+    { id: 3, name: 'sobrepeso', value: 13.56923077, color: '#FF8966' },
+    { id: 4, name: 'obesidad1', value: 13.56923077, color: '#FC5448' },
+    { id: 5, name: 'obesidad2', value: 13.56923077, color: '#D4453B' },
+    { id: 6, name: 'obesidad3', value: 27.41538462, color: '#A5332B' },
+    { id: 7, name: 'obesidad4', value: 27.41538462, color: '#84261F' },
+    { id: 8, name: 'obesidad5', value: 13.84615385, color: '#6B1412' },
 ];
 
 const cx = 150;
@@ -76,8 +78,8 @@ function Measurer({ imc }) {
 export default Measurer;
 
 function calculateAngle(imc) {
-    const max = 45
-    const min = 15
+    const max = 65
+    const min = 0
 
     // Default values
     if (imc < min) {
@@ -86,11 +88,11 @@ function calculateAngle(imc) {
         return 0;
     }
 
-    const difference = max - imc;
+    const percentage = (imc * 100) / max 
 
-    const percentage = (difference * 100) / 36.5
+    const angleNegative = (percentage * 180) / 100
 
-    const angle = (percentage * 180) / 100
+    const angle = 180 - angleNegative
 
     return angle
 }
