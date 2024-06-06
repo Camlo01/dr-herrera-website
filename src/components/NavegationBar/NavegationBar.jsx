@@ -16,6 +16,7 @@ function NavegationBar() {
 
     useEffect(() => {
         setDocumentTitle(location)
+        initGA()
     }, [location])
 
     return (
@@ -73,3 +74,17 @@ function setDocumentTitle(location) {
 
     document.title = 'No encontrado' + restOfTitle
 }
+
+export const initGA = () => {
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=G-3W2V4BW58N`;
+    document.head.appendChild(script);
+  
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){window.dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3W2V4BW58N');
+    };
+  };
