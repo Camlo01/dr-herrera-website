@@ -39,9 +39,10 @@
 }
 
 /* CARD STYLES */
-
-.testimony-section .card-container .card:nth-child(n+2) {
-    display: none;
+@media (min-width: 744px) and (max-width: 1280px) {
+    .testimony-section .card-container .card:nth-child(n+2) {
+        display: none;
+    }
 }
 
 .testimony-section .container .card {
