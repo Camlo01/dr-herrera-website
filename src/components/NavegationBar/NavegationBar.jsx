@@ -80,11 +80,11 @@ export const initGA = () => {
     script.async = true;
     script.src = `https://www.googletagmanager.com/gtag/js?id=G-3W2V4BW58N`;
     document.head.appendChild(script);
-  
+
     script.onload = () => {
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){window.dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-3W2V4BW58N');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { window.dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-3W2V4BW58N');
     };
-  };
+};
